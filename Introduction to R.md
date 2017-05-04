@@ -113,9 +113,7 @@ Notice that we're using c-for-combine operator!
 If you want to visualize this, base R has some simple tools. Packages such as ggplot2 can do much more.
 
  > hist(AZ_AMI$Score)
- 
- ![image of histogram]
- 
+
  (https://github.com/roncampbell/IRE2017/blob/images/AZ_AMI%24Score_hist.png)
 
 This produces a histogram, similar to a column or bar chart, showing the distribution of values of AMI scores. 
