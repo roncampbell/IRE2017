@@ -1,0 +1,730 @@
+ProviderID,HospitalName,Address,City,State,ZIP,County,Phone,PaymentName,PaymentMeasureID,Category,Denominator,Payment,LowerEst,HigherEst,Footnote,ValueDisplay,ValueDisplayID,CareCategory,CareFootnote,StartDate,EndDate,Location
+030071,FORT DEFIANCE INDIAN HOSPITAL,PO BOX 649,FORT DEFIANCE,AZ,86504,APACHE,9287298000,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"PO BOX 649
+FORT DEFIANCE, AZ
+"
+030071,FORT DEFIANCE INDIAN HOSPITAL,PO BOX 649,FORT DEFIANCE,AZ,86504,APACHE,9287298000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,28,"$14,966","$12,642","$17,582",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"PO BOX 649
+FORT DEFIANCE, AZ
+"
+030071,FORT DEFIANCE INDIAN HOSPITAL,PO BOX 649,FORT DEFIANCE,AZ,86504,APACHE,9287298000,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,131,"$11,253","$10,044","$12,479",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"PO BOX 649
+FORT DEFIANCE, AZ
+"
+030073,TUBA CITY REGIONAL HEALTH CARE CORPORATION,PO BOX 600,TUBA CITY,AZ,86045,COCONINO,9282832501,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"PO BOX 600
+TUBA CITY, AZ
+"
+030073,TUBA CITY REGIONAL HEALTH CARE CORPORATION,PO BOX 600,TUBA CITY,AZ,86045,COCONINO,9282832501,Payment for heart failure patients,PAYM_30_HF,Less than the National Average Payment,35,"$12,727","$10,960","$14,904",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"PO BOX 600
+TUBA CITY, AZ
+"
+030073,TUBA CITY REGIONAL HEALTH CARE CORPORATION,PO BOX 600,TUBA CITY,AZ,86045,COCONINO,9282832501,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,109,"$11,467","$10,250","$12,717",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"PO BOX 600
+TUBA CITY, AZ
+"
+030074,SELLS HOSPITAL,"HIGHWAY 86, AT TOPAWA ROAD",SELLS,AZ,85634,PIMA,5203627003,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"HIGHWAY 86, AT TOPAWA ROAD
+SELLS, AZ
+"
+030074,SELLS HOSPITAL,"HIGHWAY 86, AT TOPAWA ROAD",SELLS,AZ,85634,PIMA,5203627003,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"HIGHWAY 86, AT TOPAWA ROAD
+SELLS, AZ
+"
+030074,SELLS HOSPITAL,"HIGHWAY 86, AT TOPAWA ROAD",SELLS,AZ,85634,PIMA,5203627003,Payment for pneumonia patients,PAYM_30_PN,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"HIGHWAY 86, AT TOPAWA ROAD
+SELLS, AZ
+"
+030077,SAN CARLOS APACHE HEALTHCARE,103 MEDICINE WAY ROAD,PERIDOT,AZ,85542,GILA,9284751200,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"103 MEDICINE WAY ROAD
+PERIDOT, AZ
+"
+030077,SAN CARLOS APACHE HEALTHCARE,103 MEDICINE WAY ROAD,PERIDOT,AZ,85542,GILA,9284751200,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"103 MEDICINE WAY ROAD
+PERIDOT, AZ
+"
+030077,SAN CARLOS APACHE HEALTHCARE,103 MEDICINE WAY ROAD,PERIDOT,AZ,85542,GILA,9284751200,Payment for pneumonia patients,PAYM_30_PN,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"103 MEDICINE WAY ROAD
+PERIDOT, AZ
+"
+030084,CHINLE COMPREHENSIVE HEALTH CARE FACILITY,"US HWY 191, HOSPITAL ROAD",CHINLE,AZ,86503,APACHE,9286747001,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"US HWY 191, HOSPITAL ROAD
+CHINLE, AZ
+"
+030084,CHINLE COMPREHENSIVE HEALTH CARE FACILITY,"US HWY 191, HOSPITAL ROAD",CHINLE,AZ,86503,APACHE,9286747001,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"US HWY 191, HOSPITAL ROAD
+CHINLE, AZ
+"
+030084,CHINLE COMPREHENSIVE HEALTH CARE FACILITY,"US HWY 191, HOSPITAL ROAD",CHINLE,AZ,86503,APACHE,9286747001,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,110,"$10,415","$9,258","$11,611",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"US HWY 191, HOSPITAL ROAD
+CHINLE, AZ
+"
+031305,HOPI HEALTH CARE CENTER,"HIGHWAY 264, MILEPOST 388",POLACCA,AZ,86042,NAVAJO,9287376000,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,7 - No cases met the criteria for this measure.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"HIGHWAY 264, MILEPOST 388
+POLACCA, AZ
+"
+031305,HOPI HEALTH CARE CENTER,"HIGHWAY 264, MILEPOST 388",POLACCA,AZ,86042,NAVAJO,9287376000,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"HIGHWAY 264, MILEPOST 388
+POLACCA, AZ
+"
+031305,HOPI HEALTH CARE CENTER,"HIGHWAY 264, MILEPOST 388",POLACCA,AZ,86042,NAVAJO,9287376000,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,30,"$12,396","$10,156","$14,614",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"HIGHWAY 264, MILEPOST 388
+POLACCA, AZ
+"
+031308,HUHU KAM MEMORIAL HOSPITAL,483 WEST SEED FARM ROAD,SACATON,AZ,85147,PINAL,5205623321,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"483 WEST SEED FARM ROAD
+SACATON, AZ
+"
+031308,HUHU KAM MEMORIAL HOSPITAL,483 WEST SEED FARM ROAD,SACATON,AZ,85147,PINAL,5205623321,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"483 WEST SEED FARM ROAD
+SACATON, AZ
+"
+031308,HUHU KAM MEMORIAL HOSPITAL,483 WEST SEED FARM ROAD,SACATON,AZ,85147,PINAL,5205623321,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"483 WEST SEED FARM ROAD
+SACATON, AZ
+"
+031309,SAGE MEMORIAL HOSPITAL,STATE ROUTE 264 SOUTH 191,GANADO,AZ,86505,APACHE,9287554541,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"STATE ROUTE 264 SOUTH 191
+GANADO, AZ
+"
+031309,SAGE MEMORIAL HOSPITAL,STATE ROUTE 264 SOUTH 191,GANADO,AZ,86505,APACHE,9287554541,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"STATE ROUTE 264 SOUTH 191
+GANADO, AZ
+"
+031309,SAGE MEMORIAL HOSPITAL,STATE ROUTE 264 SOUTH 191,GANADO,AZ,86505,APACHE,9287554541,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,59,"$13,559","$11,597","$15,508",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"STATE ROUTE 264 SOUTH 191
+GANADO, AZ
+"
+030113,WHITERIVER PHS INDIAN HOSPITAL,200 WEST HOSPITAL DRIVE  (PO BOX 860),WHITERIVER,AZ,85941,NAVAJO,9283384911,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"200 WEST HOSPITAL DRIVE (PO BOX 860)
+WHITERIVER, AZ
+(33.875976, -109.959528)"
+030055,KINGMAN REGIONAL MEDICAL CENTER,3269 STOCKTON HILL ROAD,KINGMAN,AZ,86409,MOHAVE,9287572101,Payment for heart failure patients,PAYM_30_HF,Less than the National Average Payment,312,"$14,690","$13,681","$15,719",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"3269 STOCKTON HILL ROAD
+KINGMAN, AZ
+(35.136596, -114.232528)"
+030108,"CORE INSTITUTE SPECIALTY HOSPITAL, THE",6501 NORTH 19TH AVENUE,PHOENIX,AZ,85015,MARICOPA,6027956020,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"6501 NORTH 19TH AVENUE
+PHOENIX, AZ
+(33.531837, -112.099636)"
+030117,VALLEY VIEW MEDICAL CENTER,5330 SOUTH HIGHWAY 95,FORT MOHAVE,AZ,86426,MOHAVE,9287887252,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,115,"$13,422","$11,996","$14,835",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5330 SOUTH HIGHWAY 95
+FORT MOHAVE, AZ
+(35.004167, -114.597968)"
+030092,HONORHEALTH DEER VALLEY MEDICAL CENTER,19829 NORTH 27TH AVENUE,PHOENIX,AZ,85027,MARICOPA,6238796100,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,194,"$17,849","$16,273","$19,578",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"19829 NORTH 27TH AVENUE
+PHOENIX, AZ
+(33.666521, -112.117188)"
+030010,ST. MARY'S HOSPITAL,1601 WEST ST MARY'S ROAD,TUCSON,AZ,85745,PIMA,5208723000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,144,"$14,665","$13,287","$16,016",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1601 WEST ST MARY'S ROAD
+TUCSON, AZ
+(32.228884, -110.999567)"
+030016,BANNER CASA GRANDE MEDICAL CENTER,1800 EAST FLORENCE BOULEVARD,CASA GRANDE,AZ,85222,PINAL,5203816300,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,258,"$15,701","$14,517","$16,864",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1800 EAST FLORENCE BOULEVARD
+CASA GRANDE, AZ
+(32.879608, -111.709253)"
+030065,BANNER DESERT MEDICAL CENTER,1400 SOUTH  DOBSON ROAD,MESA,AZ,85202,MARICOPA,4804123000,Payment for pneumonia patients,PAYM_30_PN,Greater than the National Average Payment,318,"$16,512","$15,361","$17,682",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1400 SOUTH DOBSON ROAD
+MESA, AZ
+(33.39091, -111.874624)"
+030065,BANNER DESERT MEDICAL CENTER,1400 SOUTH  DOBSON ROAD,MESA,AZ,85202,MARICOPA,4804123000,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,281,"$18,459","$17,095","$19,881",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1400 SOUTH DOBSON ROAD
+MESA, AZ
+(33.39091, -111.874624)"
+030007,VERDE VALLEY MEDICAL CENTER,269 SOUTH CANDY LANE,COTTONWOOD,AZ,86326,YAVAPAI,9286396058,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,152,"$15,142","$13,663","$16,579",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"269 SOUTH CANDY LANE
+COTTONWOOD, AZ
+(34.73619, -112.031778)"
+033301,"LOS NINOS HOSPITAL, INC.",2303 EAST THOMAS,PHOENIX,AZ,85016,MARICOPA,6029547311,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"2303 EAST THOMAS
+PHOENIX, AZ
+(33.480287, -112.032316)"
+030092,HONORHEALTH DEER VALLEY MEDICAL CENTER,19829 NORTH 27TH AVENUE,PHOENIX,AZ,85027,MARICOPA,6238796100,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,128,"$23,287","$20,995","$25,720",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"19829 NORTH 27TH AVENUE
+PHOENIX, AZ
+(33.666521, -112.117188)"
+031300,WICKENBURG COMMUNITY HOSPITAL,520 ROSE LANE,WICKENBURG,AZ,85390,MARICOPA,9286845421,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"520 ROSE LANE
+WICKENBURG, AZ
+(33.978047, -112.74196)"
+030087,SCOTTSDALE SHEA MEDICAL CENTER,9003 EAST SHEA BOULEVARD,SCOTTSDALE,AZ,85260,MARICOPA,4803233000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,244,"$22,887","$21,164","$24,797",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"9003 EAST SHEA BOULEVARD
+SCOTTSDALE, AZ
+(33.582467, -111.886032)"
+030083,ABRAZO SCOTTSDALE CAMPUS,3929 EAST BELL ROAD,PHOENIX,AZ,85032,MARICOPA,6029235000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,69,"$16,516","$14,487","$18,874",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"3929 EAST BELL ROAD
+PHOENIX, AZ
+(33.640603, -111.997692)"
+030062,SUMMIT HEALTHCARE REGIONAL MEDICAL CENTER,2200 EAST SHOW LOW LAKE ROAD,SHOW LOW,AZ,85901,NAVAJO,9285376399,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,118,"$14,209","$12,632","$15,732",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2200 EAST SHOW LOW LAKE ROAD
+SHOW LOW, AZ
+(34.201967, -110.01839)"
+030131,O.A.S.I.S. HOSPITAL,750 NORTH 40TH STREET,PHOENIX,AZ,85008,MARICOPA,6027977700,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"750 NORTH 40TH STREET
+PHOENIX, AZ
+(33.45672, -111.99521)"
+031300,WICKENBURG COMMUNITY HOSPITAL,520 ROSE LANE,WICKENBURG,AZ,85390,MARICOPA,9286845421,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"520 ROSE LANE
+WICKENBURG, AZ
+(33.978047, -112.74196)"
+030043,CANYON VISTA MEDICAL CENTER,5700 EAST HIGHWAY 90,SIERRA VISTA,AZ,85635,COCHISE,5204173001,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,151,"$16,368","$14,905","$18,100",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5700 EAST HIGHWAY 90
+SIERRA VISTA, AZ
+(31.55463, -110.232095)"
+030024,ST. JOSEPH'S HOSPITAL AND MEDICAL CENTER,350 WEST THOMAS ROAD,PHOENIX,AZ,85013,MARICOPA,6024065001,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,87,"$14,691","$12,939","$16,384",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"350 WEST THOMAS ROAD
+PHOENIX, AZ
+(33.480294, -112.079208)"
+030122,BANNER GATEWAY MEDICAL CENTER,1900 NORTH HIGLEY ROAD,GILBERT,AZ,85234,MARICOPA,4805432000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,27,"$24,190","$20,929","$28,049",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1900 NORTH HIGLEY ROAD
+GILBERT, AZ
+(33.384225, -111.719634)"
+030115,BANNER ESTRELLA MEDICAL CENTER,9201 WEST THOMAS ROAD,PHOENIX,AZ,85037,MARICOPA,6233274000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,112,"$21,797","$19,653","$24,323",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"9201 WEST THOMAS ROAD
+PHOENIX, AZ
+(33.479558, -112.257936)"
+030111,BANNER-UNIVERSITY MEDICAL CENTER SOUTH CAMPUS,2800 EAST AJO WAY,TUCSON,AZ,85713,PIMA,5208742000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,83,"$15,782","$13,984","$17,735",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2800 EAST AJO WAY
+TUCSON, AZ
+(32.177882, -110.930891)"
+031315,WHITE MOUNTAIN REGIONAL MEDICAL CENTER,118 SOUTH MOUNTAIN AVENUE,SPRINGERVILLE,AZ,85938,APACHE,9283334368,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"118 SOUTH MOUNTAIN AVENUE
+SPRINGERVILLE, AZ
+(34.132136, -109.286545)"
+030010,ST. MARY'S HOSPITAL,1601 WEST ST MARY'S ROAD,TUCSON,AZ,85745,PIMA,5208723000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,180,"$15,014","$13,642","$16,482",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1601 WEST ST MARY'S ROAD
+TUCSON, AZ
+(32.228884, -110.999567)"
+030037,ST LUKE'S MEDICAL CENTER,1800 EAST VAN BUREN STREET,PHOENIX,AZ,85006,MARICOPA,6022518156,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,59,"$18,303","$16,034","$20,968",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1800 EAST VAN BUREN STREET
+PHOENIX, AZ
+(33.451436, -112.042767)"
+030085,NORTHWEST MEDICAL CENTER,6200 NORTH LA CHOLLA BOULEVARD,TUCSON,AZ,85741,PIMA,5204698100,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,430,"$15,191","$14,299","$16,082",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"6200 NORTH LA CHOLLA BOULEVARD
+TUCSON, AZ
+(32.319581, -111.012054)"
+030119,MERCY GILBERT MEDICAL CENTER,3555 SOUTH VAL VISTA DRIVE,GILBERT,AZ,85296,MARICOPA,4807288000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,107,"$23,532","$21,141","$26,312",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"3555 SOUTH VAL VISTA DRIVE
+GILBERT, AZ
+(33.286661, -111.755311)"
+031304,PAGE HOSPITAL,501 NORTH NAVAJO DRIVE,PAGE,AZ,86040,COCONINO,9286452424,Payment for pneumonia patients,PAYM_30_PN,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"501 NORTH NAVAJO DRIVE
+PAGE, AZ
+(36.91696, -111.463186)"
+030130,BANNER IRONWOOD MEDICAL CENTER,37000 NORTH GANTZEL ROAD,SAN TAN VALLEY,AZ,85140,PINAL,4803944030,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,27,"$14,404","$12,230","$16,801",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"37000 NORTH GANTZEL ROAD
+SAN TAN VALLEY, AZ
+(33.215299, -111.563446)"
+031314,COBRE VALLEY REGIONAL MEDICAL CENTER,5880 SOUTH HOSPITAL DRIVE,GLOBE,AZ,85501,GILA,9284253261,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,183,"$12,510","$11,421","$13,630",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"5880 SOUTH HOSPITAL DRIVE
+GLOBE, AZ
+(33.407206, -110.826224)"
+030061,BANNER BOSWELL MEDICAL CENTER,10401 WEST THUNDERBIRD BOULEVARD,SUN CITY,AZ,85351,MARICOPA,6238324000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,533,"$15,304","$14,482","$16,105",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"10401 WEST THUNDERBIRD BOULEVARD
+SUN CITY, AZ
+(33.604802, -112.28344)"
+030088,BANNER BAYWOOD MEDICAL CENTER,6644 EAST BAYWOOD AVENUE,MESA,AZ,85206,MARICOPA,4806845898,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,45,"$22,268","$19,624","$25,464",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"6644 EAST BAYWOOD AVENUE
+MESA, AZ
+(33.41047, -111.687166)"
+031315,WHITE MOUNTAIN REGIONAL MEDICAL CENTER,118 SOUTH MOUNTAIN AVENUE,SPRINGERVILLE,AZ,85938,APACHE,9283334368,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,32,"$16,403","$13,746","$19,006",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"118 SOUTH MOUNTAIN AVENUE
+SPRINGERVILLE, AZ
+(34.132136, -109.286545)"
+030023,FLAGSTAFF MEDICAL CENTER,1200 NORTH BEAVER STREET,FLAGSTAFF,AZ,86001,COCONINO,9287732378,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,198,"$15,792","$14,433","$17,275",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1200 NORTH BEAVER STREET
+FLAGSTAFF, AZ
+(35.209534, -111.644835)"
+030107,ARIZONA SPINE AND JOINT HOSPITAL,4620 EAST BASELINE ROAD,MESA,AZ,85206,MARICOPA,4808324770,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4620 EAST BASELINE ROAD
+MESA, AZ
+(33.379206, -111.734695)"
+030036,CHANDLER REGIONAL MEDICAL CENTER,1955 WEST FRYE ROAD,CHANDLER,AZ,85224,MARICOPA,4807283000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,247,"$23,583","$21,736","$25,544",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1955 WEST FRYE ROAD
+CHANDLER, AZ
+(33.298635, -111.875109)"
+030130,BANNER IRONWOOD MEDICAL CENTER,37000 NORTH GANTZEL ROAD,SAN TAN VALLEY,AZ,85140,PINAL,4803944030,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,45,"$14,992","$12,670","$17,308",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"37000 NORTH GANTZEL ROAD
+SAN TAN VALLEY, AZ
+(33.215299, -111.563446)"
+030121,"MOUNTAIN VISTA MEDICAL CENTER, LP",1301 SOUTH CRISMON ROAD,MESA,AZ,85209,MARICOPA,4803586100,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,161,"$19,194","$17,425","$21,187",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1301 SOUTH CRISMON ROAD
+MESA, AZ
+(33.3911, -111.615329)"
+030037,ST LUKE'S MEDICAL CENTER,1800 EAST VAN BUREN STREET,PHOENIX,AZ,85006,MARICOPA,6022518156,Payment for heart attack patients,PAYM_30_AMI,Greater than the National Average Payment,72,"$26,619","$23,505","$30,064",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1800 EAST VAN BUREN STREET
+PHOENIX, AZ
+(33.451436, -112.042767)"
+031313,HOLY CROSS HOSPITAL,1171 WEST TARGET RANGE ROAD,NOGALES,AZ,85621,SANTA CRUZ,5202853000,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1171 WEST TARGET RANGE ROAD
+NOGALES, AZ
+(31.341614, -110.955743)"
+030131,O.A.S.I.S. HOSPITAL,750 NORTH 40TH STREET,PHOENIX,AZ,85008,MARICOPA,6027977700,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"750 NORTH 40TH STREET
+PHOENIX, AZ
+(33.45672, -111.99521)"
+030038,SCOTTSDALE OSBORN MEDICAL CENTER,7400 EAST OSBORN ROAD,SCOTTSDALE,AZ,85251,MARICOPA,4808824000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,141,"$22,998","$20,830","$25,288",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"7400 EAST OSBORN ROAD
+SCOTTSDALE, AZ
+(33.487639, -111.922725)"
+030001,ABRAZO MARYVALE CAMPUS,5102 WEST CAMPBELL AVENUE,PHOENIX,AZ,85031,MARICOPA,6238485000,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"5102 WEST CAMPBELL AVENUE
+PHOENIX, AZ
+(33.502148, -112.170002)"
+031307,PARKER INDIAN HEALTH CENTER,12033 AGENCY ROAD,PARKER,AZ,85344,LA PAZ,9286692137,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"12033 AGENCY ROAD
+PARKER, AZ
+(34.146494, -114.301314)"
+030120,GILBERT HOSPITAL,5656 SOUTH POWER ROAD,GILBERT,AZ,85295,MARICOPA,4808403715,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"5656 SOUTH POWER ROAD
+GILBERT, AZ
+(33.313565, -111.686877)"
+030121,"MOUNTAIN VISTA MEDICAL CENTER, LP",1301 SOUTH CRISMON ROAD,MESA,AZ,85209,MARICOPA,4803586100,Payment for heart attack patients,PAYM_30_AMI,Greater than the National Average Payment,203,"$25,466","$23,341","$27,855",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1301 SOUTH CRISMON ROAD
+MESA, AZ
+(33.3911, -111.615329)"
+030134,BANNER GOLDFIELD MEDICAL CENTER,2050 WEST SOUTHERN AVENUE,APACHE JUNCTION,AZ,85120,PINAL,4807333300,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,39,"$14,129","$11,896","$16,337",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2050 WEST SOUTHERN AVENUE
+APACHE JUNCTION, AZ
+(33.393343, -111.566796)"
+030083,ABRAZO SCOTTSDALE CAMPUS,3929 EAST BELL ROAD,PHOENIX,AZ,85032,MARICOPA,6029235000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,54,"$24,328","$21,385","$27,711",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"3929 EAST BELL ROAD
+PHOENIX, AZ
+(33.640603, -111.997692)"
+030132,"FLORENCE HOSPITAL AT ANTHEM, LLC",4545 NORTH HUNT HIGHWAY,FLORENCE,AZ,85132,PINAL,5204242060,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,39,"$15,393","$13,035","$17,616",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"4545 NORTH HUNT HIGHWAY
+FLORENCE, AZ
+(33.073607, -111.486843)"
+030118,YAVAPAI REGIONAL MEDICAL CENTER-EAST CAMPUS,7700 EAST FLORENTINE ROAD,PRESCOTT VALLEY,AZ,86314,YAVAPAI,9287715676,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,68,"$15,103","$13,220","$17,154",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"7700 EAST FLORENTINE ROAD
+PRESCOTT VALLEY, AZ
+(34.588044, -112.328741)"
+030107,ARIZONA SPINE AND JOINT HOSPITAL,4620 EAST BASELINE ROAD,MESA,AZ,85206,MARICOPA,4808324770,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4620 EAST BASELINE ROAD
+MESA, AZ
+(33.379206, -111.734695)"
+030103,MAYO CLINIC HOSPITAL,5777 EAST MAYO BOULEVARD,PHOENIX,AZ,85054,MARICOPA,4803422000,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,277,"$13,739","$12,765","$14,725",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Better mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"5777 EAST MAYO BOULEVARD
+PHOENIX, AZ
+(33.663312, -111.955659)"
+030064,BANNER-UNIVERSITY MEDICAL CENTER TUCSON CAMPUS,1501 NORTH CAMPBELL AVENUE,TUCSON,AZ,85724,PIMA,5208744189,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,221,"$14,811","$13,592","$16,033",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1501 NORTH CAMPBELL AVENUE
+TUCSON, AZ
+(32.240663, -110.944717)"
+030055,KINGMAN REGIONAL MEDICAL CENTER,3269 STOCKTON HILL ROAD,KINGMAN,AZ,86409,MOHAVE,9287572101,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,199,"$23,317","$21,416","$25,351",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"3269 STOCKTON HILL ROAD
+KINGMAN, AZ
+(35.136596, -114.232528)"
+031302,"NORTHERN COCHISE COMMUNITY HOSPITAL, INC.",901 WEST REX ALLEN DRIVE,WILLCOX,AZ,85643,COCHISE,5203843541,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"901 WEST REX ALLEN DRIVE
+WILLCOX, AZ
+(32.264256, -109.838096)"
+030062,SUMMIT HEALTHCARE REGIONAL MEDICAL CENTER,2200 EAST SHOW LOW LAKE ROAD,SHOW LOW,AZ,85901,NAVAJO,9285376399,Payment for heart failure patients,PAYM_30_HF,Less than the National Average Payment,93,"$14,182","$12,675","$15,934",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"2200 EAST SHOW LOW LAKE ROAD
+SHOW LOW, AZ
+(34.201967, -110.01839)"
+030112,ARIZONA ORTHOPEDIC AND SURGICAL SPECIALITY HOSP,"2905 WEST WARNER ROAD, SUITE 1",CHANDLER,AZ,85224,MARICOPA,4806039000,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2905 WEST WARNER ROAD, SUITE 1
+CHANDLER, AZ
+(33.33484, -111.891133)"
+030022,MARICOPA MEDICAL CENTER,2601 EAST ROOSEVELT STREET,PHOENIX,AZ,85008,MARICOPA,6023445011,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2601 EAST ROOSEVELT STREET
+PHOENIX, AZ
+(33.458525, -112.02643)"
+030123,SCOTTSDALE THOMPSON PEAK MEDICAL CENTER,7400 EAST THOMPSON PEAK PARKWAY,SCOTTSDALE,AZ,85255,MARICOPA,4803247004,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,170,"$18,906","$17,297","$20,836",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"7400 EAST THOMPSON PEAK PARKWAY
+SCOTTSDALE, AZ
+(33.669777, -111.921803)"
+030010,ST. MARY'S HOSPITAL,1601 WEST ST MARY'S ROAD,TUCSON,AZ,85745,PIMA,5208723000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,154,"$21,728","$19,857","$23,789",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1601 WEST ST MARY'S ROAD
+TUCSON, AZ
+(32.228884, -110.999567)"
+030089,BANNER THUNDERBIRD MEDICAL CENTER,5555 WEST THUNDERBIRD ROAD,GLENDALE,AZ,85306,MARICOPA,4806845898,Payment for pneumonia patients,PAYM_30_PN,Greater than the National Average Payment,354,"$16,421","$15,369","$17,474",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"5555 WEST THUNDERBIRD ROAD
+GLENDALE, AZ
+(33.610731, -112.178606)"
+030101,WESTERN ARIZONA REGIONAL MEDICAL CENTER,2735 SILVER CREEK ROAD,BULLHEAD CITY,AZ,86442,MOHAVE,9287632273,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,217,"$24,558","$22,535","$26,799",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2735 SILVER CREEK ROAD
+BULLHEAD CITY, AZ
+(35.10987, -114.555341)"
+030030,ABRAZO CENTRAL CAMPUS,2000 WEST BETHANY HOME ROAD,PHOENIX,AZ,85015,MARICOPA,6022490212,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,90,"$15,242","$13,476","$16,999",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2000 WEST BETHANY HOME ROAD
+PHOENIX, AZ
+(33.524116, -112.101934)"
+030093,BANNER DEL E. WEBB MEDICAL CENTER,14502 WEST MEEKER BOULEVARD,SUN CITY WEST,AZ,85375,MARICOPA,6235244000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,453,"$15,067","$14,187","$15,942",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"14502 WEST MEEKER BOULEVARD
+SUN CITY WEST, AZ
+(33.658307, -112.371939)"
+031312,COPPER QUEEN COMMUNITY HOSPITAL,101 COLE AVENUE,BISBEE,AZ,85603,COCHISE,5204326401,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"101 COLE AVENUE
+BISBEE, AZ
+(31.417254, -109.8826)"
+030121,"MOUNTAIN VISTA MEDICAL CENTER, LP",1301 SOUTH CRISMON ROAD,MESA,AZ,85209,MARICOPA,4803586100,Payment for pneumonia patients,PAYM_30_PN,Greater than the National Average Payment,238,"$16,603","$15,320","$17,920",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1301 SOUTH CRISMON ROAD
+MESA, AZ
+(33.3911, -111.615329)"
+030006,TUCSON MEDICAL CENTER,5301 EAST GRANT ROAD,TUCSON,AZ,85712,PIMA,5203275461,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,300,"$23,626","$21,937","$25,351",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5301 EAST GRANT ROAD
+TUCSON, AZ
+(32.250749, -110.880169)"
+030014,JOHN C. LINCOLN MEDICAL CENTER,250 EAST DUNLAP AVENUE,PHOENIX,AZ,85020,MARICOPA,6023315862,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,228,"$18,105","$16,681","$19,689",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"250 EAST DUNLAP AVENUE
+PHOENIX, AZ
+(33.567754, -112.07063)"
+030002,BANNER - UNIVERSITY MEDICAL CENTER PHOENIX,1111 EAST MCDOWELL ROAD,PHOENIX,AZ,85006,MARICOPA,6022392000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,181,"$24,883","$22,685","$27,345",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1111 EAST MCDOWELL ROAD
+PHOENIX, AZ
+(33.465724, -112.058127)"
+030078,PHOENIX INDIAN MEDICAL CENTER,4212 NORTH 16TH STREET,PHOENIX,AZ,85016,MARICOPA,6022631200,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,27,"$14,243","$11,876","$16,775",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"4212 NORTH 16TH STREET
+PHOENIX, AZ
+(33.49701, -112.047613)"
+030093,BANNER DEL E. WEBB MEDICAL CENTER,14502 WEST MEEKER BOULEVARD,SUN CITY WEST,AZ,85375,MARICOPA,6235244000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,372,"$16,929","$15,867","$18,091",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"14502 WEST MEEKER BOULEVARD
+SUN CITY WEST, AZ
+(33.658307, -112.371939)"
+030101,WESTERN ARIZONA REGIONAL MEDICAL CENTER,2735 SILVER CREEK ROAD,BULLHEAD CITY,AZ,86442,MOHAVE,9287632273,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,208,"$14,236","$13,056","$15,431",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2735 SILVER CREEK ROAD
+BULLHEAD CITY, AZ
+(35.10987, -114.555341)"
+031302,"NORTHERN COCHISE COMMUNITY HOSPITAL, INC.",901 WEST REX ALLEN DRIVE,WILLCOX,AZ,85643,COCHISE,5203843541,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,99,"$13,679","$12,100","$15,228",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"901 WEST REX ALLEN DRIVE
+WILLCOX, AZ
+(32.264256, -109.838096)"
+030117,VALLEY VIEW MEDICAL CENTER,5330 SOUTH HIGHWAY 95,FORT MOHAVE,AZ,86426,MOHAVE,9287887252,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,142,"$14,975","$13,478","$16,682",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5330 SOUTH HIGHWAY 95
+FORT MOHAVE, AZ
+(35.004167, -114.597968)"
+030089,BANNER THUNDERBIRD MEDICAL CENTER,5555 WEST THUNDERBIRD ROAD,GLENDALE,AZ,85306,MARICOPA,4806845898,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,211,"$23,520","$21,495","$25,627",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5555 WEST THUNDERBIRD ROAD
+GLENDALE, AZ
+(33.610731, -112.178606)"
+031307,PARKER INDIAN HEALTH CENTER,12033 AGENCY ROAD,PARKER,AZ,85344,LA PAZ,9286692137,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"12033 AGENCY ROAD
+PARKER, AZ
+(34.146494, -114.301314)"
+030024,ST. JOSEPH'S HOSPITAL AND MEDICAL CENTER,350 WEST THOMAS ROAD,PHOENIX,AZ,85013,MARICOPA,6024065001,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,133,"$16,602","$14,969","$18,500",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"350 WEST THOMAS ROAD
+PHOENIX, AZ
+(33.480294, -112.079208)"
+030083,ABRAZO SCOTTSDALE CAMPUS,3929 EAST BELL ROAD,PHOENIX,AZ,85032,MARICOPA,6029235000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,84,"$15,682","$13,808","$17,569",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"3929 EAST BELL ROAD
+PHOENIX, AZ
+(33.640603, -111.997692)"
+030111,BANNER-UNIVERSITY MEDICAL CENTER SOUTH CAMPUS,2800 EAST AJO WAY,TUCSON,AZ,85713,PIMA,5208742000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,68,"$16,309","$14,316","$18,339",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2800 EAST AJO WAY
+TUCSON, AZ
+(32.177882, -110.930891)"
+033302,PHOENIX CHILDREN'S HOSPITAL,1919 EAST THOMAS ROAD,PHOENIX,AZ,85016,MARICOPA,6029331000,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,5 - Results are not available for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1919 EAST THOMAS ROAD
+PHOENIX, AZ
+(33.480216, -112.041193)"
+030023,FLAGSTAFF MEDICAL CENTER,1200 NORTH BEAVER STREET,FLAGSTAFF,AZ,86001,COCONINO,9287732378,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,173,"$15,052","$13,621","$16,435",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1200 NORTH BEAVER STREET
+FLAGSTAFF, AZ
+(35.209534, -111.644835)"
+030105,BANNER HEART HOSPITAL,6750 EAST BAYWOOD AVENUE,MESA,AZ,85206,MARICOPA,4808545050,Payment for pneumonia patients,PAYM_30_PN,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"6750 EAST BAYWOOD AVENUE
+MESA, AZ
+(33.410429, -111.686221)"
+033301,"LOS NINOS HOSPITAL, INC.",2303 EAST THOMAS,PHOENIX,AZ,85016,MARICOPA,6029547311,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"2303 EAST THOMAS
+PHOENIX, AZ
+(33.480287, -112.032316)"
+031300,WICKENBURG COMMUNITY HOSPITAL,520 ROSE LANE,WICKENBURG,AZ,85390,MARICOPA,9286845421,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,88,"$15,840","$13,946","$17,704",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"520 ROSE LANE
+WICKENBURG, AZ
+(33.978047, -112.74196)"
+030069,HAVASU REGIONAL MEDICAL CENTER,101 CIVIC CENTER LANE,LAKE HAVASU CITY,AZ,86403,MOHAVE,9288558185,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,331,"$14,153","$13,140","$15,141",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"101 CIVIC CENTER LANE
+LAKE HAVASU CITY, AZ
+(34.47998, -114.338537)"
+033302,PHOENIX CHILDREN'S HOSPITAL,1919 EAST THOMAS ROAD,PHOENIX,AZ,85016,MARICOPA,6029331000,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,5 - Results are not available for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1919 EAST THOMAS ROAD
+PHOENIX, AZ
+(33.480216, -112.041193)"
+030006,TUCSON MEDICAL CENTER,5301 EAST GRANT ROAD,TUCSON,AZ,85712,PIMA,5203275461,Payment for pneumonia patients,PAYM_30_PN,Greater than the National Average Payment,386,"$16,823","$15,747","$17,901",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"5301 EAST GRANT ROAD
+TUCSON, AZ
+(32.250749, -110.880169)"
+030113,WHITERIVER PHS INDIAN HOSPITAL,200 WEST HOSPITAL DRIVE  (PO BOX 860),WHITERIVER,AZ,85941,NAVAJO,9283384911,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"200 WEST HOSPITAL DRIVE (PO BOX 860)
+WHITERIVER, AZ
+(33.875976, -109.959528)"
+030092,HONORHEALTH DEER VALLEY MEDICAL CENTER,19829 NORTH 27TH AVENUE,PHOENIX,AZ,85027,MARICOPA,6238796100,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,184,"$13,717","$12,560","$14,935",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"19829 NORTH 27TH AVENUE
+PHOENIX, AZ
+(33.666521, -112.117188)"
+030043,CANYON VISTA MEDICAL CENTER,5700 EAST HIGHWAY 90,SIERRA VISTA,AZ,85635,COCHISE,5204173001,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,205,"$14,271","$13,043","$15,388",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5700 EAST HIGHWAY 90
+SIERRA VISTA, AZ
+(31.55463, -110.232095)"
+031301,BENSON HOSPITAL,450 SOUTH OCOTILLO AVENUE,BENSON,AZ,85602,COCHISE,5205862261,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"450 SOUTH OCOTILLO AVENUE
+BENSON, AZ
+(31.965051, -110.307121)"
+030110,ABRAZO WEST CAMPUS,13677 WEST MCDOWELL ROAD,GOODYEAR,AZ,85395,MARICOPA,6238821515,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,120,"$25,084","$22,415","$27,948",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"13677 WEST MCDOWELL ROAD
+GOODYEAR, AZ
+(33.464283, -112.354024)"
+030055,KINGMAN REGIONAL MEDICAL CENTER,3269 STOCKTON HILL ROAD,KINGMAN,AZ,86409,MOHAVE,9287572101,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,470,"$13,223","$12,485","$13,959",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Better mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"3269 STOCKTON HILL ROAD
+KINGMAN, AZ
+(35.136596, -114.232528)"
+030089,BANNER THUNDERBIRD MEDICAL CENTER,5555 WEST THUNDERBIRD ROAD,GLENDALE,AZ,85306,MARICOPA,4806845898,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,246,"$17,937","$16,540","$19,424",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"5555 WEST THUNDERBIRD ROAD
+GLENDALE, AZ
+(33.610731, -112.178606)"
+030088,BANNER BAYWOOD MEDICAL CENTER,6644 EAST BAYWOOD AVENUE,MESA,AZ,85206,MARICOPA,4806845898,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,736,"$15,215","$14,499","$15,910",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"6644 EAST BAYWOOD AVENUE
+MESA, AZ
+(33.41047, -111.687166)"
+030033,BANNER PAYSON MEDICAL CENTER,807 SOUTH PONDEROSA DRIVE,PAYSON,AZ,85541,GILA,9284743222,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,93,"$16,835","$15,039","$18,849",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"807 SOUTH PONDEROSA DRIVE
+PAYSON, AZ
+(34.231724, -111.321375)"
+030030,ABRAZO CENTRAL CAMPUS,2000 WEST BETHANY HOME ROAD,PHOENIX,AZ,85015,MARICOPA,6022490212,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,144,"$16,895","$15,243","$18,570",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2000 WEST BETHANY HOME ROAD
+PHOENIX, AZ
+(33.524116, -112.101934)"
+031313,HOLY CROSS HOSPITAL,1171 WEST TARGET RANGE ROAD,NOGALES,AZ,85621,SANTA CRUZ,5202853000,Payment for pneumonia patients,PAYM_30_PN,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1171 WEST TARGET RANGE ROAD
+NOGALES, AZ
+(31.341614, -110.955743)"
+031302,"NORTHERN COCHISE COMMUNITY HOSPITAL, INC.",901 WEST REX ALLEN DRIVE,WILLCOX,AZ,85643,COCHISE,5203843541,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"901 WEST REX ALLEN DRIVE
+WILLCOX, AZ
+(32.264256, -109.838096)"
+030064,BANNER-UNIVERSITY MEDICAL CENTER TUCSON CAMPUS,1501 NORTH CAMPBELL AVENUE,TUCSON,AZ,85724,PIMA,5208744189,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,201,"$24,380","$22,363","$26,543",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1501 NORTH CAMPBELL AVENUE
+TUCSON, AZ
+(32.240663, -110.944717)"
+030024,ST. JOSEPH'S HOSPITAL AND MEDICAL CENTER,350 WEST THOMAS ROAD,PHOENIX,AZ,85013,MARICOPA,6024065001,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,126,"$24,378","$21,963","$27,141",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"350 WEST THOMAS ROAD
+PHOENIX, AZ
+(33.480294, -112.079208)"
+030094,ABRAZO ARROWHEAD CAMPUS,18701 NORTH 67TH AVENUE,GLENDALE,AZ,85308,MARICOPA,6235611000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,94,"$25,122","$22,328","$28,251",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"18701 NORTH 67TH AVENUE
+GLENDALE, AZ
+(33.655042, -112.202889)"
+030131,O.A.S.I.S. HOSPITAL,750 NORTH 40TH STREET,PHOENIX,AZ,85008,MARICOPA,6027977700,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"750 NORTH 40TH STREET
+PHOENIX, AZ
+(33.45672, -111.99521)"
+030078,PHOENIX INDIAN MEDICAL CENTER,4212 NORTH 16TH STREET,PHOENIX,AZ,85016,MARICOPA,6022631200,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4212 NORTH 16TH STREET
+PHOENIX, AZ
+(33.49701, -112.047613)"
+030137,GREEN VALLEY HOSPITAL,4455 SOUTH I-19 FRONTAGE ROAD,GREEN VALLEY,AZ,85614,PIMA,5203934710,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4455 SOUTH I-19 FRONTAGE ROAD
+GREEN VALLEY, AZ
+(31.807943, -111.010966)"
+030013,YUMA REGIONAL MEDICAL CENTER,2400 SOUTH AVENUE A,YUMA,AZ,85364,YUMA,9283367600,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,542,"$16,393","$15,464","$17,342",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2400 SOUTH AVENUE A
+YUMA, AZ
+(32.683899, -114.633238)"
+030132,"FLORENCE HOSPITAL AT ANTHEM, LLC",4545 NORTH HUNT HIGHWAY,FLORENCE,AZ,85132,PINAL,5204242060,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4545 NORTH HUNT HIGHWAY
+FLORENCE, AZ
+(33.073607, -111.486843)"
+030134,BANNER GOLDFIELD MEDICAL CENTER,2050 WEST SOUTHERN AVENUE,APACHE JUNCTION,AZ,85120,PINAL,4807333300,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2050 WEST SOUTHERN AVENUE
+APACHE JUNCTION, AZ
+(33.393343, -111.566796)"
+030136,DIGNITY HEALTH - ARIZONA GENERAL HOSPITAL,7171 SOUTH 51ST AVENUE,LAVEEN,AZ,85339,MARICOPA,6235845100,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"7171 SOUTH 51ST AVENUE
+LAVEEN, AZ
+(33.380678, -112.168233)"
+030114,ORO VALLEY HOSPITAL,1551 EAST TANGERINE ROAD,ORO VALLEY,AZ,85755,PIMA,5209013549,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,187,"$15,575","$14,240","$17,028",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1551 EAST TANGERINE ROAD
+ORO VALLEY, AZ
+(32.427304, -110.947967)"
+031312,COPPER QUEEN COMMUNITY HOSPITAL,101 COLE AVENUE,BISBEE,AZ,85603,COCHISE,5204326401,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,30,"$14,776","$12,178","$17,344",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"101 COLE AVENUE
+BISBEE, AZ
+(31.417254, -109.8826)"
+030036,CHANDLER REGIONAL MEDICAL CENTER,1955 WEST FRYE ROAD,CHANDLER,AZ,85224,MARICOPA,4807283000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,343,"$14,292","$13,366","$15,258",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1955 WEST FRYE ROAD
+CHANDLER, AZ
+(33.298635, -111.875109)"
+030022,MARICOPA MEDICAL CENTER,2601 EAST ROOSEVELT STREET,PHOENIX,AZ,85008,MARICOPA,6023445011,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2601 EAST ROOSEVELT STREET
+PHOENIX, AZ
+(33.458525, -112.02643)"
+030002,BANNER - UNIVERSITY MEDICAL CENTER PHOENIX,1111 EAST MCDOWELL ROAD,PHOENIX,AZ,85006,MARICOPA,6022392000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,143,"$15,978","$14,486","$17,453",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1111 EAST MCDOWELL ROAD
+PHOENIX, AZ
+(33.465724, -112.058127)"
+030012,YAVAPAI REGIONAL MEDICAL CENTER,1003 WILLOW CREEK ROAD,PRESCOTT,AZ,86301,YAVAPAI,9284452700,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,373,"$14,748","$13,802","$15,673",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Worse mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1003 WILLOW CREEK ROAD
+PRESCOTT, AZ
+(34.558763, -112.482039)"
+030088,BANNER BAYWOOD MEDICAL CENTER,6644 EAST BAYWOOD AVENUE,MESA,AZ,85206,MARICOPA,4806845898,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,315,"$18,615","$17,250","$20,029",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"6644 EAST BAYWOOD AVENUE
+MESA, AZ
+(33.41047, -111.687166)"
+030038,SCOTTSDALE OSBORN MEDICAL CENTER,7400 EAST OSBORN ROAD,SCOTTSDALE,AZ,85251,MARICOPA,4808824000,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,323,"$17,631","$16,359","$18,873",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Better mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"7400 EAST OSBORN ROAD
+SCOTTSDALE, AZ
+(33.487639, -111.922725)"
+030108,"CORE INSTITUTE SPECIALTY HOSPITAL, THE",6501 NORTH 19TH AVENUE,PHOENIX,AZ,85015,MARICOPA,6027956020,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"6501 NORTH 19TH AVENUE
+PHOENIX, AZ
+(33.531837, -112.099636)"
+030012,YAVAPAI REGIONAL MEDICAL CENTER,1003 WILLOW CREEK ROAD,PRESCOTT,AZ,86301,YAVAPAI,9284452700,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,214,"$17,273","$15,791","$18,900",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1003 WILLOW CREEK ROAD
+PRESCOTT, AZ
+(34.558763, -112.482039)"
+030068,MT. GRAHAM REGIONAL MEDICAL CENTER,1600 SOUTH 20TH AVENUE,SAFFORD,AZ,85546,GRAHAM,9283484000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,28,"$14,457","$12,254","$17,062",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1600 SOUTH 20TH AVENUE
+SAFFORD, AZ
+(32.821883, -109.732994)"
+031311,LITTLE COLORADO MEDICAL CENTER,1501 NORTH WILLIAMSON AVENUE,WINSLOW,AZ,86047,NAVAJO,9282894691,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1501 NORTH WILLIAMSON AVENUE
+WINSLOW, AZ
+(35.035455, -110.691742)"
+030123,SCOTTSDALE THOMPSON PEAK MEDICAL CENTER,7400 EAST THOMPSON PEAK PARKWAY,SCOTTSDALE,AZ,85255,MARICOPA,4803247004,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,210,"$13,715","$12,510","$14,841",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Better mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"7400 EAST THOMPSON PEAK PARKWAY
+SCOTTSDALE, AZ
+(33.669777, -111.921803)"
+030115,BANNER ESTRELLA MEDICAL CENTER,9201 WEST THOMAS ROAD,PHOENIX,AZ,85037,MARICOPA,6233274000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,149,"$14,999","$13,539","$16,532",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"9201 WEST THOMAS ROAD
+PHOENIX, AZ
+(33.479558, -112.257936)"
+030069,HAVASU REGIONAL MEDICAL CENTER,101 CIVIC CENTER LANE,LAKE HAVASU CITY,AZ,86403,MOHAVE,9288558185,Payment for heart attack patients,PAYM_30_AMI,Less than the National Average Payment,227,"$20,726","$19,140","$22,413",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"101 CIVIC CENTER LANE
+LAKE HAVASU CITY, AZ
+(34.47998, -114.338537)"
+030105,BANNER HEART HOSPITAL,6750 EAST BAYWOOD AVENUE,MESA,AZ,85206,MARICOPA,4808545050,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,490,"$23,338","$22,002","$24,846",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"6750 EAST BAYWOOD AVENUE
+MESA, AZ
+(33.410429, -111.686221)"
+030062,SUMMIT HEALTHCARE REGIONAL MEDICAL CENTER,2200 EAST SHOW LOW LAKE ROAD,SHOW LOW,AZ,85901,NAVAJO,9285376399,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,114,"$25,047","$22,427","$27,852",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2200 EAST SHOW LOW LAKE ROAD
+SHOW LOW, AZ
+(34.201967, -110.01839)"
+030110,ABRAZO WEST CAMPUS,13677 WEST MCDOWELL ROAD,GOODYEAR,AZ,85395,MARICOPA,6238821515,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,201,"$15,033","$13,804","$16,318",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"13677 WEST MCDOWELL ROAD
+GOODYEAR, AZ
+(33.464283, -112.354024)"
+030007,VERDE VALLEY MEDICAL CENTER,269 SOUTH CANDY LANE,COTTONWOOD,AZ,86326,YAVAPAI,9286396058,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,157,"$15,406","$13,962","$17,061",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"269 SOUTH CANDY LANE
+COTTONWOOD, AZ
+(34.73619, -112.031778)"
+030043,CANYON VISTA MEDICAL CENTER,5700 EAST HIGHWAY 90,SIERRA VISTA,AZ,85635,COCHISE,5204173001,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,198,"$21,385","$19,688","$23,253",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5700 EAST HIGHWAY 90
+SIERRA VISTA, AZ
+(31.55463, -110.232095)"
+030061,BANNER BOSWELL MEDICAL CENTER,10401 WEST THUNDERBIRD BOULEVARD,SUN CITY,AZ,85351,MARICOPA,6238324000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,343,"$22,764","$21,280","$24,373",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"10401 WEST THUNDERBIRD BOULEVARD
+SUN CITY, AZ
+(33.604802, -112.28344)"
+030087,SCOTTSDALE SHEA MEDICAL CENTER,9003 EAST SHEA BOULEVARD,SCOTTSDALE,AZ,85260,MARICOPA,4803233000,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,486,"$18,287","$17,245","$19,435",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"9003 EAST SHEA BOULEVARD
+SCOTTSDALE, AZ
+(33.582467, -111.886032)"
+030119,MERCY GILBERT MEDICAL CENTER,3555 SOUTH VAL VISTA DRIVE,GILBERT,AZ,85296,MARICOPA,4807288000,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,200,"$18,193","$16,638","$19,873",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"3555 SOUTH VAL VISTA DRIVE
+GILBERT, AZ
+(33.286661, -111.755311)"
+033303,"HACIENDA CHILDREN'S HOSPITAL, INC.",610 WEST JEROME AVENUE,MESA,AZ,85210,MARICOPA,6022434231,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"610 WEST JEROME AVENUE
+MESA, AZ
+(33.381128, -111.844892)"
+030038,SCOTTSDALE OSBORN MEDICAL CENTER,7400 EAST OSBORN ROAD,SCOTTSDALE,AZ,85251,MARICOPA,4808824000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,377,"$14,468","$13,546","$15,361",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"7400 EAST OSBORN ROAD
+SCOTTSDALE, AZ
+(33.487639, -111.922725)"
+030011,ST JOSEPH'S HOSPITAL,350 NORTH WILMOT ROAD,TUCSON,AZ,85711,PIMA,5208733000,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,234,"$17,376","$15,975","$18,887",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"350 NORTH WILMOT ROAD
+TUCSON, AZ
+(32.225946, -110.857838)"
+030112,ARIZONA ORTHOPEDIC AND SURGICAL SPECIALITY HOSP,"2905 WEST WARNER ROAD, SUITE 1",CHANDLER,AZ,85224,MARICOPA,4806039000,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2905 WEST WARNER ROAD, SUITE 1
+CHANDLER, AZ
+(33.33484, -111.891133)"
+030137,GREEN VALLEY HOSPITAL,4455 SOUTH I-19 FRONTAGE ROAD,GREEN VALLEY,AZ,85614,PIMA,5203934710,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4455 SOUTH I-19 FRONTAGE ROAD
+GREEN VALLEY, AZ
+(31.807943, -111.010966)"
+030137,GREEN VALLEY HOSPITAL,4455 SOUTH I-19 FRONTAGE ROAD,GREEN VALLEY,AZ,85614,PIMA,5203934710,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4455 SOUTH I-19 FRONTAGE ROAD
+GREEN VALLEY, AZ
+(31.807943, -111.010966)"
+030037,ST LUKE'S MEDICAL CENTER,1800 EAST VAN BUREN STREET,PHOENIX,AZ,85006,MARICOPA,6022518156,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,37,"$16,764","$14,292","$19,096",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1800 EAST VAN BUREN STREET
+PHOENIX, AZ
+(33.451436, -112.042767)"
+030011,ST JOSEPH'S HOSPITAL,350 NORTH WILMOT ROAD,TUCSON,AZ,85711,PIMA,5208733000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,271,"$15,563","$14,399","$16,705",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"350 NORTH WILMOT ROAD
+TUCSON, AZ
+(32.225946, -110.857838)"
+030014,JOHN C. LINCOLN MEDICAL CENTER,250 EAST DUNLAP AVENUE,PHOENIX,AZ,85020,MARICOPA,6023315862,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,109,"$23,414","$21,070","$25,977",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"250 EAST DUNLAP AVENUE
+PHOENIX, AZ
+(33.567754, -112.07063)"
+031314,COBRE VALLEY REGIONAL MEDICAL CENTER,5880 SOUTH HOSPITAL DRIVE,GLOBE,AZ,85501,GILA,9284253261,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,142,"$15,075","$13,621","$16,657",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Better mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5880 SOUTH HOSPITAL DRIVE
+GLOBE, AZ
+(33.407206, -110.826224)"
+033303,"HACIENDA CHILDREN'S HOSPITAL, INC.",610 WEST JEROME AVENUE,MESA,AZ,85210,MARICOPA,6022434231,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"610 WEST JEROME AVENUE
+MESA, AZ
+(33.381128, -111.844892)"
+030065,BANNER DESERT MEDICAL CENTER,1400 SOUTH  DOBSON ROAD,MESA,AZ,85202,MARICOPA,4804123000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,187,"$23,588","$21,542","$25,743",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1400 SOUTH DOBSON ROAD
+MESA, AZ
+(33.39091, -111.874624)"
+030012,YAVAPAI REGIONAL MEDICAL CENTER,1003 WILLOW CREEK ROAD,PRESCOTT,AZ,86301,YAVAPAI,9284452700,Payment for heart attack patients,PAYM_30_AMI,Greater than the National Average Payment,386,"$24,726","$23,109","$26,460",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1003 WILLOW CREEK ROAD
+PRESCOTT, AZ
+(34.558763, -112.482039)"
+030105,BANNER HEART HOSPITAL,6750 EAST BAYWOOD AVENUE,MESA,AZ,85206,MARICOPA,4808545050,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,519,"$17,358","$16,359","$18,435",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Better mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"6750 EAST BAYWOOD AVENUE
+MESA, AZ
+(33.410429, -111.686221)"
+030064,BANNER-UNIVERSITY MEDICAL CENTER TUCSON CAMPUS,1501 NORTH CAMPBELL AVENUE,TUCSON,AZ,85724,PIMA,5208744189,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,255,"$14,383","$13,329","$15,508",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1501 NORTH CAMPBELL AVENUE
+TUCSON, AZ
+(32.240663, -110.944717)"
+030007,VERDE VALLEY MEDICAL CENTER,269 SOUTH CANDY LANE,COTTONWOOD,AZ,86326,YAVAPAI,9286396058,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,125,"$22,887","$20,644","$25,383",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"269 SOUTH CANDY LANE
+COTTONWOOD, AZ
+(34.73619, -112.031778)"
+030120,GILBERT HOSPITAL,5656 SOUTH POWER ROAD,GILBERT,AZ,85295,MARICOPA,4808403715,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,39,"$14,752","$12,488","$17,111",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5656 SOUTH POWER ROAD
+GILBERT, AZ
+(33.313565, -111.686877)"
+030113,WHITERIVER PHS INDIAN HOSPITAL,200 WEST HOSPITAL DRIVE  (PO BOX 860),WHITERIVER,AZ,85941,NAVAJO,9283384911,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,51,"$13,905","$11,927","$15,902",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"200 WEST HOSPITAL DRIVE (PO BOX 860)
+WHITERIVER, AZ
+(33.875976, -109.959528)"
+030068,MT. GRAHAM REGIONAL MEDICAL CENTER,1600 SOUTH 20TH AVENUE,SAFFORD,AZ,85546,GRAHAM,9283484000,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,99,"$13,238","$11,749","$14,753",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"1600 SOUTH 20TH AVENUE
+SAFFORD, AZ
+(32.821883, -109.732994)"
+031312,COPPER QUEEN COMMUNITY HOSPITAL,101 COLE AVENUE,BISBEE,AZ,85603,COCHISE,5204326401,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"101 COLE AVENUE
+BISBEE, AZ
+(31.417254, -109.8826)"
+030033,BANNER PAYSON MEDICAL CENTER,807 SOUTH PONDEROSA DRIVE,PAYSON,AZ,85541,GILA,9284743222,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,78,"$23,323","$20,659","$26,248",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"807 SOUTH PONDEROSA DRIVE
+PAYSON, AZ
+(34.231724, -111.321375)"
+030120,GILBERT HOSPITAL,5656 SOUTH POWER ROAD,GILBERT,AZ,85295,MARICOPA,4808403715,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"5656 SOUTH POWER ROAD
+GILBERT, AZ
+(33.313565, -111.686877)"
+030122,BANNER GATEWAY MEDICAL CENTER,1900 NORTH HIGLEY ROAD,GILBERT,AZ,85234,MARICOPA,4805432000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,133,"$16,597","$15,038","$18,413",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1900 NORTH HIGLEY ROAD
+GILBERT, AZ
+(33.384225, -111.719634)"
+031301,BENSON HOSPITAL,450 SOUTH OCOTILLO AVENUE,BENSON,AZ,85602,COCHISE,5205862261,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,47,"$11,153","$9,482","$12,842",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"450 SOUTH OCOTILLO AVENUE
+BENSON, AZ
+(31.965051, -110.307121)"
+030103,MAYO CLINIC HOSPITAL,5777 EAST MAYO BOULEVARD,PHOENIX,AZ,85054,MARICOPA,4803422000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,472,"$15,955","$15,016","$17,005",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5777 EAST MAYO BOULEVARD
+PHOENIX, AZ
+(33.663312, -111.955659)"
+030030,ABRAZO CENTRAL CAMPUS,2000 WEST BETHANY HOME ROAD,PHOENIX,AZ,85015,MARICOPA,6022490212,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,142,"$24,202","$21,822","$26,871",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2000 WEST BETHANY HOME ROAD
+PHOENIX, AZ
+(33.524116, -112.101934)"
+030036,CHANDLER REGIONAL MEDICAL CENTER,1955 WEST FRYE ROAD,CHANDLER,AZ,85224,MARICOPA,4807283000,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,327,"$17,532","$16,302","$18,801",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1955 WEST FRYE ROAD
+CHANDLER, AZ
+(33.298635, -111.875109)"
+030013,YUMA REGIONAL MEDICAL CENTER,2400 SOUTH AVENUE A,YUMA,AZ,85364,YUMA,9283367600,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,527,"$23,419","$22,110","$24,839",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2400 SOUTH AVENUE A
+YUMA, AZ
+(32.683899, -114.633238)"
+031307,PARKER INDIAN HEALTH CENTER,12033 AGENCY ROAD,PARKER,AZ,85344,LA PAZ,9286692137,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"12033 AGENCY ROAD
+PARKER, AZ
+(34.146494, -114.301314)"
+030023,FLAGSTAFF MEDICAL CENTER,1200 NORTH BEAVER STREET,FLAGSTAFF,AZ,86001,COCONINO,9287732378,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,183,"$24,172","$21,941","$26,487",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1200 NORTH BEAVER STREET
+FLAGSTAFF, AZ
+(35.209534, -111.644835)"
+030117,VALLEY VIEW MEDICAL CENTER,5330 SOUTH HIGHWAY 95,FORT MOHAVE,AZ,86426,MOHAVE,9287887252,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,75,"$21,071","$18,794","$23,458",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5330 SOUTH HIGHWAY 95
+FORT MOHAVE, AZ
+(35.004167, -114.597968)"
+031311,LITTLE COLORADO MEDICAL CENTER,1501 NORTH WILLIAMSON AVENUE,WINSLOW,AZ,86047,NAVAJO,9282894691,Payment for pneumonia patients,PAYM_30_PN,Less than the National Average Payment,61,"$11,951","$10,275","$13,676",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"1501 NORTH WILLIAMSON AVENUE
+WINSLOW, AZ
+(35.035455, -110.691742)"
+030085,NORTHWEST MEDICAL CENTER,6200 NORTH LA CHOLLA BOULEVARD,TUCSON,AZ,85741,PIMA,5204698100,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,171,"$21,384","$19,582","$23,453",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"6200 NORTH LA CHOLLA BOULEVARD
+TUCSON, AZ
+(32.319581, -111.012054)"
+030134,BANNER GOLDFIELD MEDICAL CENTER,2050 WEST SOUTHERN AVENUE,APACHE JUNCTION,AZ,85120,PINAL,4807333300,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2050 WEST SOUTHERN AVENUE
+APACHE JUNCTION, AZ
+(33.393343, -111.566796)"
+030093,BANNER DEL E. WEBB MEDICAL CENTER,14502 WEST MEEKER BOULEVARD,SUN CITY WEST,AZ,85375,MARICOPA,6235244000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,370,"$22,176","$20,792","$23,683",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"14502 WEST MEEKER BOULEVARD
+SUN CITY WEST, AZ
+(33.658307, -112.371939)"
+030136,DIGNITY HEALTH - ARIZONA GENERAL HOSPITAL,7171 SOUTH 51ST AVENUE,LAVEEN,AZ,85339,MARICOPA,6235845100,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"7171 SOUTH 51ST AVENUE
+LAVEEN, AZ
+(33.380678, -112.168233)"
+030011,ST JOSEPH'S HOSPITAL,350 NORTH WILMOT ROAD,TUCSON,AZ,85711,PIMA,5208733000,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,229,"$22,029","$20,344","$23,847",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"350 NORTH WILMOT ROAD
+TUCSON, AZ
+(32.225946, -110.857838)"
+030033,BANNER PAYSON MEDICAL CENTER,807 SOUTH PONDEROSA DRIVE,PAYSON,AZ,85541,GILA,9284743222,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,77,"$14,615","$12,822","$16,324",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"807 SOUTH PONDEROSA DRIVE
+PAYSON, AZ
+(34.231724, -111.321375)"
+030022,MARICOPA MEDICAL CENTER,2601 EAST ROOSEVELT STREET,PHOENIX,AZ,85008,MARICOPA,6023445011,Payment for pneumonia patients,PAYM_30_PN,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2601 EAST ROOSEVELT STREET
+PHOENIX, AZ
+(33.458525, -112.02643)"
+030122,BANNER GATEWAY MEDICAL CENTER,1900 NORTH HIGLEY ROAD,GILBERT,AZ,85234,MARICOPA,4805432000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,153,"$14,767","$13,386","$16,072",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1900 NORTH HIGLEY ROAD
+GILBERT, AZ
+(33.384225, -111.719634)"
+030001,ABRAZO MARYVALE CAMPUS,5102 WEST CAMPBELL AVENUE,PHOENIX,AZ,85031,MARICOPA,6238485000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,26,"$14,556","$12,212","$16,909",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"5102 WEST CAMPBELL AVENUE
+PHOENIX, AZ
+(33.502148, -112.170002)"
+030112,ARIZONA ORTHOPEDIC AND SURGICAL SPECIALITY HOSP,"2905 WEST WARNER ROAD, SUITE 1",CHANDLER,AZ,85224,MARICOPA,4806039000,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"2905 WEST WARNER ROAD, SUITE 1
+CHANDLER, AZ
+(33.33484, -111.891133)"
+030014,JOHN C. LINCOLN MEDICAL CENTER,250 EAST DUNLAP AVENUE,PHOENIX,AZ,85020,MARICOPA,6023315862,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,187,"$15,819","$14,446","$17,169",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"250 EAST DUNLAP AVENUE
+PHOENIX, AZ
+(33.567754, -112.07063)"
+031317,LA PAZ REGIONAL HOSPITAL,1200 WEST MOHAVE ROAD,PARKER,AZ,85344,LA PAZ,9286699201,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,55,"$14,377","$12,592","$16,533",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1200 WEST MOHAVE ROAD
+PARKER, AZ
+(34.135299, -114.285226)"
+033303,"HACIENDA CHILDREN'S HOSPITAL, INC.",610 WEST JEROME AVENUE,MESA,AZ,85210,MARICOPA,6022434231,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"610 WEST JEROME AVENUE
+MESA, AZ
+(33.381128, -111.844892)"
+030068,MT. GRAHAM REGIONAL MEDICAL CENTER,1600 SOUTH 20TH AVENUE,SAFFORD,AZ,85546,GRAHAM,9283484000,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1600 SOUTH 20TH AVENUE
+SAFFORD, AZ
+(32.821883, -109.732994)"
+030016,BANNER CASA GRANDE MEDICAL CENTER,1800 EAST FLORENCE BOULEVARD,CASA GRANDE,AZ,85222,PINAL,5203816300,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,119,"$16,502","$14,840","$18,423",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1800 EAST FLORENCE BOULEVARD
+CASA GRANDE, AZ
+(32.879608, -111.709253)"
+030119,MERCY GILBERT MEDICAL CENTER,3555 SOUTH VAL VISTA DRIVE,GILBERT,AZ,85296,MARICOPA,4807288000,Payment for pneumonia patients,PAYM_30_PN,Greater than the National Average Payment,296,"$15,890","$14,867","$17,012",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Better mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"3555 SOUTH VAL VISTA DRIVE
+GILBERT, AZ
+(33.286661, -111.755311)"
+030114,ORO VALLEY HOSPITAL,1551 EAST TANGERINE ROAD,ORO VALLEY,AZ,85755,PIMA,5209013549,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,239,"$14,278","$13,143","$15,441",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1551 EAST TANGERINE ROAD
+ORO VALLEY, AZ
+(32.427304, -110.947967)"
+030118,YAVAPAI REGIONAL MEDICAL CENTER-EAST CAMPUS,7700 EAST FLORENTINE ROAD,PRESCOTT VALLEY,AZ,86314,YAVAPAI,9287715676,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,172,"$16,148","$14,695","$17,675",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"7700 EAST FLORENTINE ROAD
+PRESCOTT VALLEY, AZ
+(34.588044, -112.328741)"
+030130,BANNER IRONWOOD MEDICAL CENTER,37000 NORTH GANTZEL ROAD,SAN TAN VALLEY,AZ,85140,PINAL,4803944030,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,7 - No cases met the criteria for this measure.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"37000 NORTH GANTZEL ROAD
+SAN TAN VALLEY, AZ
+(33.215299, -111.563446)"
+030001,ABRAZO MARYVALE CAMPUS,5102 WEST CAMPBELL AVENUE,PHOENIX,AZ,85031,MARICOPA,6238485000,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"5102 WEST CAMPBELL AVENUE
+PHOENIX, AZ
+(33.502148, -112.170002)"
+031317,LA PAZ REGIONAL HOSPITAL,1200 WEST MOHAVE ROAD,PARKER,AZ,85344,LA PAZ,9286699201,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,64,"$23,279","$20,487","$26,372",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1200 WEST MOHAVE ROAD
+PARKER, AZ
+(34.135299, -114.285226)"
+031304,PAGE HOSPITAL,501 NORTH NAVAJO DRIVE,PAGE,AZ,86040,COCONINO,9286452424,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"501 NORTH NAVAJO DRIVE
+PAGE, AZ
+(36.91696, -111.463186)"
+030094,ABRAZO ARROWHEAD CAMPUS,18701 NORTH 67TH AVENUE,GLENDALE,AZ,85308,MARICOPA,6235611000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,132,"$17,582","$15,793","$19,409",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"18701 NORTH 67TH AVENUE
+GLENDALE, AZ
+(33.655042, -112.202889)"
+030085,NORTHWEST MEDICAL CENTER,6200 NORTH LA CHOLLA BOULEVARD,TUCSON,AZ,85741,PIMA,5204698100,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,283,"$16,742","$15,553","$18,056",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"6200 NORTH LA CHOLLA BOULEVARD
+TUCSON, AZ
+(32.319581, -111.012054)"
+030118,YAVAPAI REGIONAL MEDICAL CENTER-EAST CAMPUS,7700 EAST FLORENTINE ROAD,PRESCOTT VALLEY,AZ,86314,YAVAPAI,9287715676,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,27,"$21,373","$18,530","$24,659",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"7700 EAST FLORENTINE ROAD
+PRESCOTT VALLEY, AZ
+(34.588044, -112.328741)"
+033302,PHOENIX CHILDREN'S HOSPITAL,1919 EAST THOMAS ROAD,PHOENIX,AZ,85016,MARICOPA,6029331000,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,5 - Results are not available for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1919 EAST THOMAS ROAD
+PHOENIX, AZ
+(33.480216, -112.041193)"
+030002,BANNER - UNIVERSITY MEDICAL CENTER PHOENIX,1111 EAST MCDOWELL ROAD,PHOENIX,AZ,85006,MARICOPA,6022392000,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,254,"$19,927","$18,449","$21,503",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"1111 EAST MCDOWELL ROAD
+PHOENIX, AZ
+(33.465724, -112.058127)"
+030016,BANNER CASA GRANDE MEDICAL CENTER,1800 EAST FLORENCE BOULEVARD,CASA GRANDE,AZ,85222,PINAL,5203816300,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,96,"$24,464","$21,845","$27,522",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1800 EAST FLORENCE BOULEVARD
+CASA GRANDE, AZ
+(32.879608, -111.709253)"
+030111,BANNER-UNIVERSITY MEDICAL CENTER SOUTH CAMPUS,2800 EAST AJO WAY,TUCSON,AZ,85713,PIMA,5208742000,Payment for heart attack patients,PAYM_30_AMI,Greater than the National Average Payment,103,"$25,530","$22,903","$28,622",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"2800 EAST AJO WAY
+TUCSON, AZ
+(32.177882, -110.930891)"
+031314,COBRE VALLEY REGIONAL MEDICAL CENTER,5880 SOUTH HOSPITAL DRIVE,GLOBE,AZ,85501,GILA,9284253261,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"5880 SOUTH HOSPITAL DRIVE
+GLOBE, AZ
+(33.407206, -110.826224)"
+031315,WHITE MOUNTAIN REGIONAL MEDICAL CENTER,118 SOUTH MOUNTAIN AVENUE,SPRINGERVILLE,AZ,85938,APACHE,9283334368,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,7 - No cases met the criteria for this measure.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"118 SOUTH MOUNTAIN AVENUE
+SPRINGERVILLE, AZ
+(34.132136, -109.286545)"
+030094,ABRAZO ARROWHEAD CAMPUS,18701 NORTH 67TH AVENUE,GLENDALE,AZ,85308,MARICOPA,6235611000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,186,"$15,072","$13,784","$16,403",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"18701 NORTH 67TH AVENUE
+GLENDALE, AZ
+(33.655042, -112.202889)"
+030013,YUMA REGIONAL MEDICAL CENTER,2400 SOUTH AVENUE A,YUMA,AZ,85364,YUMA,9283367600,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,974,"$15,355","$14,723","$15,987",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2400 SOUTH AVENUE A
+YUMA, AZ
+(32.683899, -114.633238)"
+030110,ABRAZO WEST CAMPUS,13677 WEST MCDOWELL ROAD,GOODYEAR,AZ,85395,MARICOPA,6238821515,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,129,"$17,959","$16,176","$19,937",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"13677 WEST MCDOWELL ROAD
+GOODYEAR, AZ
+(33.464283, -112.354024)"
+030078,PHOENIX INDIAN MEDICAL CENTER,4212 NORTH 16TH STREET,PHOENIX,AZ,85016,MARICOPA,6022631200,Payment for heart attack patients,PAYM_30_AMI,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4212 NORTH 16TH STREET
+PHOENIX, AZ
+(33.49701, -112.047613)"
+031301,BENSON HOSPITAL,450 SOUTH OCOTILLO AVENUE,BENSON,AZ,85602,COCHISE,5205862261,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"450 SOUTH OCOTILLO AVENUE
+BENSON, AZ
+(31.965051, -110.307121)"
+030101,WESTERN ARIZONA REGIONAL MEDICAL CENTER,2735 SILVER CREEK ROAD,BULLHEAD CITY,AZ,86442,MOHAVE,9287632273,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,287,"$15,170","$14,032","$16,312",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"2735 SILVER CREEK ROAD
+BULLHEAD CITY, AZ
+(35.10987, -114.555341)"
+031313,HOLY CROSS HOSPITAL,1171 WEST TARGET RANGE ROAD,NOGALES,AZ,85621,SANTA CRUZ,5202853000,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1171 WEST TARGET RANGE ROAD
+NOGALES, AZ
+(31.341614, -110.955743)"
+031304,PAGE HOSPITAL,501 NORTH NAVAJO DRIVE,PAGE,AZ,86040,COCONINO,9286452424,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"501 NORTH NAVAJO DRIVE
+PAGE, AZ
+(36.91696, -111.463186)"
+031317,LA PAZ REGIONAL HOSPITAL,1200 WEST MOHAVE ROAD,PARKER,AZ,85344,LA PAZ,9286699201,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,86,"$14,959","$12,992","$16,805",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1200 WEST MOHAVE ROAD
+PARKER, AZ
+(34.135299, -114.285226)"
+030114,ORO VALLEY HOSPITAL,1551 EAST TANGERINE ROAD,ORO VALLEY,AZ,85755,PIMA,5209013549,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,121,"$22,732","$20,563","$24,984",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"1551 EAST TANGERINE ROAD
+ORO VALLEY, AZ
+(32.427304, -110.947967)"
+030132,"FLORENCE HOSPITAL AT ANTHEM, LLC",4545 NORTH HUNT HIGHWAY,FLORENCE,AZ,85132,PINAL,5204242060,Payment for heart failure patients,PAYM_30_HF,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4545 NORTH HUNT HIGHWAY
+FLORENCE, AZ
+(33.073607, -111.486843)"
+031311,LITTLE COLORADO MEDICAL CENTER,1501 NORTH WILLIAMSON AVENUE,WINSLOW,AZ,86047,NAVAJO,9282894691,Payment for heart attack patients,PAYM_30_AMI,Number of Cases Too Small,Not Available,Not Available,Not Available,Not Available,1 - The number of cases/patients is too few to report.,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"1501 NORTH WILLIAMSON AVENUE
+WINSLOW, AZ
+(35.035455, -110.691742)"
+030069,HAVASU REGIONAL MEDICAL CENTER,101 CIVIC CENTER LANE,LAKE HAVASU CITY,AZ,86403,MOHAVE,9288558185,Payment for heart failure patients,PAYM_30_HF,Less than the National Average Payment,339,"$14,345","$13,351","$15,410",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"101 CIVIC CENTER LANE
+LAKE HAVASU CITY, AZ
+(34.47998, -114.338537)"
+030006,TUCSON MEDICAL CENTER,5301 EAST GRANT ROAD,TUCSON,AZ,85712,PIMA,5203275461,Payment for heart failure patients,PAYM_30_HF,Greater than the National Average Payment,455,"$18,095","$17,040","$19,230",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and higher payment,,07/01/2012,06/30/2015 00:00:00,"5301 EAST GRANT ROAD
+TUCSON, AZ
+(32.250749, -110.880169)"
+033301,"LOS NINOS HOSPITAL, INC.",2303 EAST THOMAS,PHOENIX,AZ,85016,MARICOPA,6029547311,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,19 - Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.,07/01/2012,06/30/2015 00:00:00,"2303 EAST THOMAS
+PHOENIX, AZ
+(33.480287, -112.032316)"
+030087,SCOTTSDALE SHEA MEDICAL CENTER,9003 EAST SHEA BOULEVARD,SCOTTSDALE,AZ,85260,MARICOPA,4803233000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,581,"$15,245","$14,433","$16,048",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"9003 EAST SHEA BOULEVARD
+SCOTTSDALE, AZ
+(33.582467, -111.886032)"
+030108,"CORE INSTITUTE SPECIALTY HOSPITAL, THE",6501 NORTH 19TH AVENUE,PHOENIX,AZ,85015,MARICOPA,6027956020,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"6501 NORTH 19TH AVENUE
+PHOENIX, AZ
+(33.531837, -112.099636)"
+030123,SCOTTSDALE THOMPSON PEAK MEDICAL CENTER,7400 EAST THOMPSON PEAK PARKWAY,SCOTTSDALE,AZ,85255,MARICOPA,4803247004,Payment for heart attack patients,PAYM_30_AMI,No Different than the National Average Payment,82,"$23,168","$20,695","$26,096",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"7400 EAST THOMPSON PEAK PARKWAY
+SCOTTSDALE, AZ
+(33.669777, -111.921803)"
+030061,BANNER BOSWELL MEDICAL CENTER,10401 WEST THUNDERBIRD BOULEVARD,SUN CITY,AZ,85351,MARICOPA,6238324000,Payment for heart failure patients,PAYM_30_HF,No Different than the National Average Payment,475,"$16,643","$15,680","$17,649",,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"10401 WEST THUNDERBIRD BOULEVARD
+SUN CITY, AZ
+(33.604802, -112.28344)"
+030115,BANNER ESTRELLA MEDICAL CENTER,9201 WEST THOMAS ROAD,PHOENIX,AZ,85037,MARICOPA,6233274000,Payment for pneumonia patients,PAYM_30_PN,No Different than the National Average Payment,171,"$14,252","$12,958","$15,565",,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Average mortality and average payment,,07/01/2012,06/30/2015 00:00:00,"9201 WEST THOMAS ROAD
+PHOENIX, AZ
+(33.479558, -112.257936)"
+030136,DIGNITY HEALTH - ARIZONA GENERAL HOSPITAL,7171 SOUTH 51ST AVENUE,LAVEEN,AZ,85339,MARICOPA,6235845100,Payment for pneumonia patients,PAYM_30_PN,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Pneumonia measure,MORT_PAYM_30_PN,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"7171 SOUTH 51ST AVENUE
+LAVEEN, AZ
+(33.380678, -112.168233)"
+030103,MAYO CLINIC HOSPITAL,5777 EAST MAYO BOULEVARD,PHOENIX,AZ,85054,MARICOPA,4803422000,Payment for heart attack patients,PAYM_30_AMI,Less than the National Average Payment,214,"$20,762","$19,119","$22,573",,Value of Care Heart Attack measure,MORT_PAYM_30_AMI,Better mortality and lower payment,,07/01/2012,06/30/2015 00:00:00,"5777 EAST MAYO BOULEVARD
+PHOENIX, AZ
+(33.663312, -111.955659)"
+030107,ARIZONA SPINE AND JOINT HOSPITAL,4620 EAST BASELINE ROAD,MESA,AZ,85206,MARICOPA,4808324770,Payment for heart failure patients,PAYM_30_HF,Not Available,Not Available,Not Available,Not Available,Not Available,5 - Results are not available for this reporting period.,Value of Care Heart Failure measure,MORT_PAYM_30_HF,Not Available,13 - Results cannot be calculated for this reporting period.,07/01/2012,06/30/2015 00:00:00,"4620 EAST BASELINE ROAD
+MESA, AZ
+(33.379206, -111.734695)"
