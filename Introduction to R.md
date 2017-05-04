@@ -35,7 +35,7 @@ One other thing: That c() after colClasses is something you will come across a l
 
 Now that the data is imported, let's interview it. 
 
-> dim(AZ_readmit)         # displays dimensions of the data frame
+> dim(AZ_readmit)         # displays dimensions of the data frame in rows and columns
 
 [1] 1134   19
 
@@ -45,7 +45,7 @@ Now that the data is imported, let's interview it.
 
 > View(AZ_readmit)        # displays data frame in Source pane
 
-What is this data all about? Well, the CSV was called ReadmissionsAndDeaths, which sounds promising. And there are two columns called MeasureName and MeasureID. We can get a quick idea of the contents with the table() command:
+What is this data all about? Well, the CSV was called ReadmissionsAndDeaths, which sounds promising. And there are two columns called MeasureName and MeasureID. We can get a quick idea of the contents with the table() command which creates a frequency table:
 
 > table(AZ_readmit$MeasureID)
 
@@ -79,7 +79,7 @@ Now let's look at all of the measures at once:
 
 4          MORT_30_HF 11.613725 ...
 
-The aggregate() function lets us weigh two or more variables against each other. We begin with a continuous variable (Score), separated by a tilde from a categorical variable (MeasureID), followed by the data frame, and then the function, in this case the mean. Other functions we could use include median, sum (not relevant here) and length (R-speak for count). 
+The aggregate() function lets us compare two or more variables. We begin with a continuous variable (Score), separated by a tilde from a categorical variable (MeasureID), followed by the data frame, and then the function, in this case the mean. In English we want to know the mean Score for each Measure ID. Other functions we could use include median, sum (not relevant here) and length (R-speak for count). 
 
 
 The scores, by the way, are not death rates; they are "risk-standardized mortality rates" that make possible comparisons among very different hospitals. Bottom line: the lower, the better. 
