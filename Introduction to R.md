@@ -147,8 +147,6 @@ We want to know if hospitals with the lowest mortality scores get paid more than
 
 > plot(AMI_Pay_Deaths$Score, AMI_Pay_Deaths$Payment)
 
-![image of scatterplot]
-
 (https://github.com/roncampbell/IRE2017/blob/images/Pay_deaths_score.png)
 
 Um, no. If there's a pattern here, I can't see it.
