@@ -6,6 +6,8 @@ You can install a package at any time. But in order to use a package during a se
 
 <code>library(ggplot2)</code>                 # adds package to session
 
+(In R, place a # before comments. The program does not process anything on the same line after the #-sign.)  
+
 If you're just getting started with R, here are my recommendations for packages that you should have: tidyverse (a collection of packages, including ggplot2, from the prolific Hadley Wickham), data.table, stringr, forcats and lubridate.
 
 Before we get started, here are a few rules of the R road: 
