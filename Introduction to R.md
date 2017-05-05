@@ -129,9 +129,11 @@ Let's import our second file, HospitalAcquiredConditions.csv; this scores how we
 We need to convert a few of the columns from string to numeric. By now this is easy.
 
 > AZ_infections$Domain1_Score <- as.numeric(AZ_infections$Domain1_Score)
+
 > AZ_infections$Domain2_Score <- as.numeric(AZ_infections$Domain2_Score)
 Warning message:
 NAs introduced by coercion 
+
 > AZ_infections$Total_HAC_Score <- as.numeric(AZ_infections$Total_HAC_Score)
 
 Next we combine AZ_AMI and AMI_infections. The two data frames have several fields in common, but the most fool-proof way to merge them is by using the ProviderID. People can always misspell or abbreviate a hospital name or address; not much chance of that happening with a six-digit ID number.
