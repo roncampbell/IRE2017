@@ -41,13 +41,13 @@ Now that the data is imported, let's interview it.
 
 [1] 1134   19
 
-> str(AZ_readmit)         # displays dimensions plus for each variable the data type and four samples
+> str(AZ_readmit)         # displays the structure: dimensions plus for each variable the data type and four samples
 
 > head(AZ_readmit)        # displays first six rows in Console
 
-> View(AZ_readmit)        # displays data frame in Source pane
+> View(AZ_readmit)        # displays a scrollable view of the data frame in Source pane
 
-What is this data all about? Well, the CSV was called ReadmissionsAndDeaths, which sounds promising. And there are two columns called MeasureName and MeasureID. We can get a quick idea of the contents with the table() command which creates a frequency table:
+What is this data all about? Well, the CSV was called ReadmissionsAndDeaths, which sounds promising. And there are two columns called MeasureName and MeasureID. We can get a quick idea of the contents with the table() command, which creates a frequency table:
 
 > table(AZ_readmit$MeasureID)
 
@@ -56,7 +56,7 @@ What is this data all about? Well, the CSV was called ReadmissionsAndDeaths, whi
        MORT_30_STK       READM_30_AMI      READM_30_CABG      READM_30_COPD        READM_30_HF 
                 81                 81                 81                 81                 81 
  
-Notice the syntax: We name the table, a $-sign and the column. We get back a series of measures, some beginning with "MORT" (for "mortality", others with "READM" (for "readmission"). These are measures for 81 Arizona hospitals; they measure how often patients died or were readmitted within 30 days after discharge for conditions like acute myocardial infarction (AMI or heart attack), cardio-arterial bypass graft (CABG), chronic obstructive pulmonary disorder (COPD), heart failure, pneumonia and stroke.
+Notice the syntax: We list the names of the data frame and column separated by a $-sign. We get back a series of measures, some beginning with "MORT" (for "mortality"), others with "READM" (for "readmission"). There are 81, one for each hospital in Arizona; they measure how often patients died or were readmitted within 30 days after discharge for conditions like acute myocardial infarction (AMI or heart attack), cardio-arterial bypass graft (CABG), chronic obstructive pulmonary disorder (COPD), heart failure (HF), pneumonia (PN) and stroke (STK).
  
 Right now every column is a character string. And the key "Score" column is a jumble of numbers and "Not Available" entries. But we can fix that.
  
@@ -81,20 +81,19 @@ Now let's look at all of the measures at once:
 
 4          MORT_30_HF 11.613725 ...
 
-The aggregate() function lets us compare two or more variables. We begin with a continuous variable (Score), separated by a tilde from a categorical variable (MeasureID), followed by the data frame, and then the function, in this case the mean. In English we want to know the mean Score for each Measure ID. Other functions we could use include median, sum (not relevant here) and length (R-speak for count). 
+We use the aggregate() function to combine and compare. We begin with a continuous variable (Score), separated by a tilde from a categorical variable (MeasureID), followed by the data frame, and then the function, in this case the mean. In English we want to know the mean Score for each Measure ID. Other functions we could use include median, sum (not relevant here) and length (R-speak for count). 
 
+The scores, by the way, are not death rates; they are "risk-standardized mortality rates", which make possible comparisons among very different hospitals. Bottom line: the lower, the better. 
 
-The scores, by the way, are not death rates; they are "risk-standardized mortality rates" that make possible comparisons among very different hospitals. Bottom line: the lower, the better. 
-
-Next we'll zero in on heart attack deaths. To do that, we'll take a subset of the data. We'll need to grab every case where the MeasureID is MORT_30_AMI. But we also want to eliminate hospitals where a footnote indicates there are no results or too few results.
+Next we'll zero in on heart attack deaths. To do that, we'll take a subset of the data. We'll grab every case where the MeasureID is MORT_30_AMI. But we also want to eliminate hospitals where a footnote indicates there are no results or too few results.
 
 > AZ_AMI <- subset(AZ_readmit, MeasureID=="MORT_30_AMI" & Footnote=="")
 
-Again let's dissect the command: We assign the new file (AZ_AMI), call the subset() command, the file we want to subset (AZ_readmit) and then name the columns we want to use; we want everything in AZ_readmit where the MeasureID is "MORT_30_AMI" and where the Footnote is empty.
+Again let's dissect the command: We call the subset() command, the file we want to subset (AZ_readmit) and then name the columns we want to use; we want everything in AZ_readmit where the MeasureID is "MORT_30_AMI" and where the Footnote is empty. We assign all of this to a new data frame called AZ_AMI. 
 
-There had been 1,134 rows in our original data frame, and in the frequency table above we had 81 rows for MORT_30_AMI. But after eliminating hospitals with footnotes we wind up with just 45 hospitals in our new data frame.
+There had been 1,134 rows in our original data frame, and in the frequency table above we had 81 rows for MORT_30_AMI. But after eliminating hospitals with footnotes we wind up with just 45 hospitals in the new data frame AZ_AMI.
 
-Now let's take a close look:
+Let's take a close look:
 
 > summary(AZ_AMI$Score)
 
@@ -102,7 +101,7 @@ Now let's take a close look:
    
   11.30   13.40   13.90   13.99   14.60   16.10 
 
-The summary() function is really handy, but we can get a more granular look by using the quantile() function:
+The summary() function is handy, but we can get a more granular look by using the quantile() function:
 
 > quantile(AZ_AMI$Score, c(0.1, 0.25, 0.5, 0.75, 0.9))
 
@@ -112,15 +111,15 @@ The summary() function is really handy, but we can get a more granular look by u
 
 Notice that we're using c-for-combine operator!
 
-If you want to visualize this, base R has some simple tools. Packages such as ggplot2 can do much more.
+If you want to visualize this, base R has some simple tools. (Packages such as ggplot2 can do much more.)
 
  > hist(AZ_AMI$Score)
 
  (https://github.com/roncampbell/IRE2017/blob/images/AZ_AMI%24Score_hist.png)
 
-This produces a histogram, similar to a column or bar chart, showing the distribution of values of AMI scores. 
+This command produces a histogram, similar to a column or bar chart, showing the distribution of values of AMI scores. 
 
-Let's import our second file, HospitalAcquiredConditions.csv; this scores how well or poorly hospitals deal with certain bugs such as MRSA that exist almost exclusively inside healthcare facilities. If their scores exceed 6.75, hospitals are docked a percentage of their annual Medicare payments. We want to see if there's a relationship between Arizona hospitals' scores for controlling these conditions or infections (HACs or HAIs) and their 30-day heart attack mortality scores. To do that we'll import the HAC table and merge it with AZ_AMI.
+Let's import our second file, HospitalAcquiredConditions.csv; this shows how well or poorly hospitals deal with certain bugs such as MRSA that exist almost exclusively inside healthcare facilities. If their HAC (hospital-acquired condition) scores exceed 6.75, hospitals are docked a percentage of their annual Medicare payments. We want to see if there's a relationship between Arizona hospitals' HAC scores and their 30-day heart attack mortality scores. To do that we'll import this table and merge it with AZ_AMI.
 
 > AZ_infections <- read.csv("./HospitalAcquiredConditions.csv", header=TRUE, colClasses=c(rep("character",16)))
 
@@ -136,11 +135,11 @@ NAs introduced by coercion
 
 > AZ_infections$Total_HAC_Score <- as.numeric(AZ_infections$Total_HAC_Score)
 
-Next we combine AZ_AMI and AMI_infections. The two data frames have several fields in common, but the most fool-proof way to merge them is by using the ProviderID. People can always misspell or abbreviate a hospital name or address; not much chance of that happening with a six-digit ID number.
+Next we combine AZ_AMI and AMI_infections. The two data frames have several fields in common, but the most fool-proof way to merge them is by using the ProviderID. This is a unique number assigned by Medicare to each hospital. People can always misspell or abbreviate a hospital name or address; not much chance of that happening with a six-digit ID number.
 
 > AMI_AMI_infect <- merge(AZ_AMI, AMI_infections, by="ProviderID")
 
-The syntax is simple: We assign a name for the new data frame, use the  command merge(), followed by the two data frames that we are merging, the key word "by=" and then the column on which we are merging. That's it. The one down side is that we get all the columns in both tables with lots of redundancies. 
+The syntax here is fairly simple: We assign a name for the new data frame, use the command merge(), followed by the names of the two data frames that we are merging, the key word "by=" and then the column on which we are merging in quotes. (If the merger column had been named differently in the two tables, then we would do it like this: by=c("ProviderID", "Provider_ID"), making sure that we match the order of the data frames in the merge statement.) That's it. The one down side is that we get all the columns in both tables, including several that repeat the same information.  
 
 We want to know if low heart-attack mortality and low HAC scores go together. There are several ways to answer that question. But if the answer is obvious, there's an easy way to **see** it. It's called a scatter plot, an arrangement of dots on a horizontal-vertical plane. All we have to do is plot, say, mortality scores on one axis and payments on the other axis and see if the dots form a pattern.
 
@@ -150,7 +149,7 @@ We want to know if low heart-attack mortality and low HAC scores go together. Th
 
 Um, no. If there's a pattern here, I can't see it.
 
-Where our eyes fail, perhaps a statistical test will succeed. Let's try a linear regression. We want to see how Score responds to the independent variable, Payment. So Score will appear on the left side of the tilde. 
+Where our eyes fail, perhaps a statistical test will succeed. Let's try a linear regression. We want to see how Score responds to the independent variable, Total_HAC_Score. So Score will appear on the left side of the tilde. 
 
 > infect_model <- lm(Score ~ Total_HAC_Score, data=AZ_AMI_infect)
 
