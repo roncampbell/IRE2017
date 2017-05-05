@@ -144,7 +144,7 @@ We want to know if low heart-attack mortality and low HAC scores go together. Th
 
 > plot(AZ_AMI_infect$Score, AZ_AMI_infect$Total_HAC_Score)
 
-(https://github.com/roncampbell/IRE2017/blob/images/Pay_deaths_score.png)
+(https://github.com/roncampbell/IRE2017/blob/images/AMI_infections.png)
 
 Um, no. If there's a pattern here, I can't see it.
 
