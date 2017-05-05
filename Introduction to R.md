@@ -166,12 +166,16 @@ Where our eyes fail, perhaps a statistical test will succeed. Let's try a linear
 > Coefficients:
 >              Estimate Std. Error t value Pr(>|t|)    
 > (Intercept) 14.42464    0.64643  22.314   <2e-16 
+
 > Total_HAC_Score -0.04723    0.10931  -0.432    0.668    
 > 
 > Signif. codes:  0 ‘ ’ 0.001 ‘ ’ 0.01 ‘ ’ 0.05 ‘.’ 0.1 ‘ ’ 1
 > 
 > Residual standard error: 1.091 on 42 degrees of freedom
-> Multiple R-squared:  0.004425,	Adjusted R-squared:  -0.01928 
+
+> Multiple R-squared:  0.004425,	
+Adjusted R-squared:  -0.01928 
+
 > F-statistic: 0.1867 on 1 and 42 DF,  p-value: 0.6679
 
 There's a lot of detail here, but perhaps the most telling is the Adjusted R-squared value. R-squared is the ratio of explained variation (between Score and Payment in this case) and total variation. It's always between 0 and 1. The very low R-squared tells us that the regression model explains almost none of the variance in the Score - Total_HAC_Score regression line. 
