@@ -23,7 +23,7 @@ We'll begin by launching R Studio. R Studio has four panes or windows. Depending
 
 R can import many file types, but the easiest and most flexible is a CSV or "comma-separated variable". If you've worked with Excel or database programs, you've already encountered CSVs. If not, the name explains most but not all of their mysteries. CSV files typically consist of files with columns separated by, yes, commas; if a column contains internal commas then that column should have some demarcation such as quote marks. 
 
-We will be working with two Medicare files on Arizona hospitals, ReadmissionsAndDeaths.csv and PaymentAndValue.csv
+We will be working with two Medicare files on Arizona hospitals, ReadmissionsAndDeaths.csv and HospitalAcquiredConditions.csv
 
 The exact syntax for the import command will depend on your working directory and the location of these files. For demo purposes, I set my working directory to the exact location of the files:
 
@@ -120,34 +120,29 @@ If you want to visualize this, base R has some simple tools. Packages such as gg
 
 This produces a histogram, similar to a column or bar chart, showing the distribution of values of AMI scores. 
 
-Let's import our second file, PaymentAndValue.csv; this lists average Medicare payments to Arizona hospitals for selected types of medical care. We want to see if there's a relationship between heart attack-related payment rates and mortality scores. To do that we'll have to tweak the payment table and then merge it with AZ_AMI.
+Let's import our second file, HospitalAcquiredConditions.csv; this scores how well or poorly hospitals deal with certain bugs such as MRSA that exist almost exclusively inside healthcare facilities. If their scores exceed 6.75, hospitals are docked a percentage of their annual Medicare payments. We want to see if there's a relationship between Arizona hospitals' scores for controlling these conditions or infections (HACs or HAIs) and their 30-day heart attack mortality scores. To do that we'll import the HAC table and merge it with AZ_AMI.
 
-> AZ_payment <- read.csv("./PaymentAndValue.csv", header=TRUE, colClasses=c(rep("character",17)))
+> AZ_infections <- read.csv("./HospitalAcquiredConditions.csv", header=TRUE, colClasses=c(rep("character",16)))
 
-> View(AZ_payment)
+> View(AZ_conditions)
 
-There's something odd about the Payment column - not just the many rows with a "Not Available" label, but the payments are formatted with $-signs and commas. If you try to change this column to a number using the as.numeric() method I showed you earlier, you will get nothing but NA's. (Trust me, I tested this.) The reason is that R treats the $-sign and everything that follows it as a character string. So we have to use a little magic to extract the $-sign and the comma, converting what's left to a number.
+We need to convert a few of the columns from string to numeric. By now this is easy.
 
-> AZ_payment$Payment <- as.numeric(gsub("[\\$,]", "", AZ_payment$Payment))
-
+> AZ_infections$Domain1_Score <- as.numeric(AZ_infections$Domain1_Score)
+> AZ_infections$Domain2_Score <- as.numeric(AZ_infections$Domain2_Score)
 Warning message:
 NAs introduced by coercion 
+> AZ_infections$Total_HAC_Score <- as.numeric(AZ_infections$Total_HAC_Score)
 
-This is a bit of wizardry known as a "regular expression". The "gsub" is a global substitution; it says to look everywhere in the column Payment for a $-sign and a comma ($,) and to replace them with nothing (""). Once we have done that, working from inside the parentheses to outside, we convert the column to numeric. 
+Next we combine AZ_AMI and AMI_infections. The two data frames have several fields in common, but the most fool-proof way to merge them is by using the ProviderID. People can always misspell or abbreviate a hospital name or address; not much chance of that happening with a six-digit ID number.
 
-Now we can make a data frame of payments for heart attacks (AMI's).
-
-> AMI_Pay <- subset(AZ_payment, PaymentMeasureID=="PAYM_30_AMI" & Footnote=="")
-
-Next we combine AZ_AMI and AMI_Pay. The two data frames have several fields in common, but the most fool-proof way to merge them is by using the ProviderID. People can always misspell or abbreviate a hospital name or address; not much chance of that happening with a six-digit ID number.
-
-> AMI_Pay_Deaths <- merge(AZ_AMI, AMI_Pay, by="ProviderID")
+> AMI_AMI_infect <- merge(AZ_AMI, AMI_infections, by="ProviderID")
 
 The syntax is simple: We assign a name for the new data frame, use the  command merge(), followed by the two data frames that we are merging, the key word "by=" and then the column on which we are merging. That's it. The one down side is that we get all the columns in both tables with lots of redundancies. 
 
-We want to know if hospitals with the lowest mortality scores get paid more than lower-performing hospitals. There are several ways to answer that question. But if the answer is obvious, there's an easy way to **see** it. It's called a scatter plot, an arrangement of dots on a horizontal-vertical plane. All we have to do is plot, say, mortality scores on one axis and payments on the other axis and see if the dots form a pattern.
+We want to know if low heart-attack mortality and low HAC scores go together. There are several ways to answer that question. But if the answer is obvious, there's an easy way to **see** it. It's called a scatter plot, an arrangement of dots on a horizontal-vertical plane. All we have to do is plot, say, mortality scores on one axis and payments on the other axis and see if the dots form a pattern.
 
-> plot(AMI_Pay_Deaths$Score, AMI_Pay_Deaths$Payment)
+> plot(AZ_AMI_infect$Score, AZ_AMI_infect$Total_HAC_Score)
 
 (https://github.com/roncampbell/IRE2017/blob/images/Pay_deaths_score.png)
 
@@ -155,28 +150,28 @@ Um, no. If there's a pattern here, I can't see it.
 
 Where our eyes fail, perhaps a statistical test will succeed. Let's try a linear regression. We want to see how Score responds to the independent variable, Payment. So Score will appear on the left side of the tilde. 
 
-> az_model <- lm(Score ~ Payment, data=AMI_Pay_Deaths)
+> infect_model <- lm(Score ~ Total_HAC_Score, data=AZ_AMI_infect)
 
-> summary(az_model)
+> summary(infect_model)
 
 > Call:
-> lm(formula = Score ~ Payment, data = AMI_Pay_Deaths)
+> lm(formula = Score ~ Total_HAC_Score, data = AZ_AMI_infect)
 
 > Residuals:
 >      Min       1Q   Median       3Q      Max 
-> -2.38980 -0.70170  0.02236  0.49484  2.41430 
+> -2.3937 -0.8598  0.1684  0.5709  2.8935 
 > 
 > Coefficients:
 >              Estimate Std. Error t value Pr(>|t|)    
-> (Intercept) 1.133e+01  2.540e+00    4.46 5.81e-05 
-> Payment     1.138e-04  1.084e-04    1.05    0.299    
+> (Intercept) 14.42464    0.64643  22.314   <2e-16 
+> Total_HAC_Score -0.04723    0.10931  -0.432    0.668    
 > 
 > Signif. codes:  0 ‘ ’ 0.001 ‘ ’ 0.01 ‘ ’ 0.05 ‘.’ 0.1 ‘ ’ 1
 > 
-> Residual standard error: 0.9836 on 43 degrees of freedom
-> Multiple R-squared:  0.02501,	Adjusted R-squared:  0.002337 
-> F-statistic: 1.103 on 1 and 43 DF,  p-value: 0.2995
+> Residual standard error: 1.091 on 42 degrees of freedom
+> Multiple R-squared:  0.004425,	Adjusted R-squared:  -0.01928 
+> F-statistic: 0.1867 on 1 and 42 DF,  p-value: 0.6679
 
-There's a lot of detail here, but perhaps the most telling is the Adjusted R-squared value. R-squared is the ratio of explained variation (between Score and Payment in this case) and total variation. It's always between 0 and 1. The very low R-squared tells us that the regression model explains almost none of the variance in the Score - Payment regression line. 
+There's a lot of detail here, but perhaps the most telling is the Adjusted R-squared value. R-squared is the ratio of explained variation (between Score and Payment in this case) and total variation. It's always between 0 and 1. The very low R-squared tells us that the regression model explains almost none of the variance in the Score - Total_HAC_Score regression line. 
 
-So there isn't a relationship between the money Medicare pays hospitals for heart attack care and the 30-day mortality rate. But sometimes in journalism it pays to know right away which stories just are not there.
+So there surprisingly isn't much of a relationship between hospital-acquired conditions and the 30-day mortality for heart attacks. But sometimes in journalism it pays to know right away which stories just are not there.
