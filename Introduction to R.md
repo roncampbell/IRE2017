@@ -2,13 +2,13 @@ R is an open-source programming language that is widely used by scientists and, 
 
 You can install a package at any time. But in order to use a package during a session, you must, in effect, hit the "on" switch. Here's an example using one wildly popular R package:
 
-<code>install.packages("ggplot2")</code>      # adds package to computer
+<code>install.packages("tidyverse")</code>      # adds package to computer
 
-<code>library(ggplot2)</code>                 # adds package to session
+<code>library(tidyverse)</code>                 # adds package to session
 
-(In R, place a # before comments. The program does not process anything on the same line after the #-sign.)  
+(In R, place a # before comments. R does not process anything on the same line after the #-sign.)  
 
-If you're just getting started with R, here are my recommendations for packages that you should have: tidyverse (a collection of packages, including ggplot2, from the prolific Hadley Wickham), data.table, stringr, forcats and lubridate.
+If you're just getting started with R, I recommend installing tidyverse, which is actually a collection of several packages from the prolific Hadley Wickham including data manipulation tools dplyr, tidyr, stringr and lubridate and graphics tool ggplot2.
 
 Before we get started, here are a few rules of the R road: 
 
