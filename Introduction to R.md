@@ -178,6 +178,6 @@ Adjusted R-squared:  -0.01928
 
 > F-statistic: 0.1867 on 1 and 42 DF,  p-value: 0.6679
 
-There's a lot of detail here, but perhaps the most telling is the Adjusted R-squared value. R-squared is the ratio of explained variation (between Score and Payment in this case) and total variation. It's always between 0 and 1. The very low R-squared tells us that the regression model explains almost none of the variance in the Score - Total_HAC_Score regression line. 
+There's a lot of detail here, but perhaps the most telling is the Adjusted R-squared value. R-squared is the ratio of explained variation (between Score and Total_HAC_Score in this case) and total variation. It's always between 0 and 1. The very low R-squared tells us that the regression model explains almost none of the variance in the Score - Total_HAC_Score regression line. 
 
 So there surprisingly isn't much of a relationship between hospital-acquired conditions and the 30-day mortality for heart attacks. But sometimes in journalism it pays to know right away which stories just are not there.
