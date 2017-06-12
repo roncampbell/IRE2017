@@ -150,7 +150,7 @@ NAs introduced by coercion
 
 Next we combine `AZ_AMI` and `AMI_infections`. The two data frames have several fields in common, but the most fool-proof way to merge them is by using the ProviderID. This is a unique number assigned by Medicare to each hospital. People can always misspell or abbreviate a hospital name or address; not much chance of that happening with a six-digit ID number.
 
-`> AMI_AMI_infect <- merge(AZ_AMI, AMI_infections, by="ProviderID")`
+`> AZ_AMI_infect <- merge(AZ_AMI, AZ_infections, by="ProviderID")`
 
 The syntax here is fairly simple: We assign a name for the new data frame, use the command `merge()`, followed by the names of the two data frames that we are merging, the key word "by=" and then the column on which we are merging in quotes. (If the merger column had been named differently in the two tables, then we would do it like this: `by=c("ProviderID", "Provider_ID")`, making sure that we match the order of the data frames in the merge statement.) That's it. The one down side is that we get all the columns in both tables, including several that repeat the same information.  
 
